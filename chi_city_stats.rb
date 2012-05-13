@@ -27,7 +27,7 @@ def get_crime_rating(location)
   BikeCrimesJSON.data.each do |crime|
     count++ if sqrt((crime[24] - location.lng)**2 + (crime.[23] - location.lat)**2) > 0.015
   end
-  count
+  count > 100 ? "High risk" : count > 50 ? "Medium risk" : count > 10 ? "Low risk" : "Safe"
 end
 
 Twitter.configure do |config|
