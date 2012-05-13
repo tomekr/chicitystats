@@ -44,7 +44,8 @@ end
 mention_cache = Set.new
 
 loop do
-  mentions = Array(Twitter.mentions.first)
+  mentions = Array(Twitter.mentions.select! {|m|  m.geo }.first)
+
   mentions.each do |mention|
     unless mention_cache.include? [mention.text, mention.user.screen_name]
       lat, long  =  mention.geo.coordinates if mention.geo
