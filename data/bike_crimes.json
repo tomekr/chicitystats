@@ -1,0 +1,1824 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "qnrb-dui6",
+      "name" : "Crimes - 2011",
+      "attribution" : "Chicago Police Department",
+      "attributionLink" : "https://portal.chicagopolice.org/portal/page/portal/ClearPath",
+      "averageRating" : 0,
+      "category" : "Public Safety",
+      "createdAt" : 1317329476,
+      "description" : "This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days. Data is extracted from the Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system. In order to protect the privacy of crime victims, addresses are shown at the block level only and specific locations are not identified. Should you have questions about this dataset, you may contact the Research & Development Division of the Chicago Police Department at 312.745.6071 or RandD@chicagopolice.org. Disclaimer: These crimes may be based upon preliminary information supplied to the Police Department by the reporting parties that have not been verified. The preliminary crime classifications may be changed at a later date based upon additional investigation and there is always the possibility of mechanical or human error. Therefore, the Chicago Police Department does not guarantee (either expressed or implied) the accuracy, completeness, timeliness, or correct sequencing of the information and the information should not be used for comparison purposes over time. The Chicago Police Department will not be responsible for any error or omission, or for the use of, or the results obtained from the use of this information. All data visualizations on maps should be considered approximate and attempts to derive specific addresses are strictly prohibited. The Chicago Police Department is not responsible for the content of any off-site pages that are referenced by or that reference this web page other than an official City of Chicago or Chicago Police Department web page. The user specifically acknowledges that the Chicago Police Department is not responsible for any defamatory, offensive, misleading, or illegal conduct of other users, links, or third parties and that the risk of injury from the foregoing rests entirely with the user. The unauthorized use of the words \"Chicago Police Department,\" \"Chicago Police,\" or any colorable imitation of these words or the unauthorized use of the Chicago Police Department logo is unlawful. This web page does not, in any way, authorize such use. Data is updated daily Tuesday through Sunday. The dataset contains more than 65,000 records/rows of data and cannot be viewed in full in Microsoft Excel. Therefore, when downloading the file, select CSV from the Export menu. Open the file in an ASCII text editor, such as Wordpad, to view and search. To access a list of Chicago Police Department - Illinois Uniform Crime Reporting (IUCR) codes, go to http://bit.ly/rk5Tpc.",
+      "displayType" : "table",
+      "downloadCount" : 627,
+      "moderationStatus" : true,
+      "numberOfComments" : 0,
+      "oid" : 675098,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1336820842,
+      "publicationGroup" : 239997,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1336820727,
+      "rowsUpdatedBy" : "scy9-9wg4",
+      "searchString" : "BIKE",
+      "signed" : false,
+      "state" : "normal",
+      "tableId" : 339319,
+      "totalTimesRated" : 0,
+      "viewCount" : 5112,
+      "viewLastModified" : 1319062487,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 9265572,
+        "name" : "Case Number",
+        "dataTypeName" : "text",
+        "fieldName" : "case_number",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514295,
+        "width" : 134,
+        "cachedContents" : {
+          "non_null" : 349780,
+          "smallest" : "144780",
+          "null" : 0,
+          "largest" : "Y449586",
+          "top" : [ {
+            "count" : 20,
+            "item" : "HV281503"
+          }, {
+            "count" : 19,
+            "item" : "HV279010"
+          }, {
+            "count" : 18,
+            "item" : "HV281448"
+          }, {
+            "count" : 17,
+            "item" : "HV281527"
+          }, {
+            "count" : 16,
+            "item" : "HV281946"
+          }, {
+            "count" : 15,
+            "item" : "HV282040"
+          }, {
+            "count" : 14,
+            "item" : "HV281844"
+          }, {
+            "count" : 13,
+            "item" : "HV281889"
+          }, {
+            "count" : 12,
+            "item" : "HV282301"
+          } ]
+        },
+        "format" : {
+          "aggregate" : "count",
+          "align" : "left"
+        }
+      }, {
+        "id" : 9265573,
+        "name" : "Date",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "date",
+        "position" : 2,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 1514296,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 349765,
+          "smallest" : "2011-01-01T00:00:00",
+          "null" : 15,
+          "largest" : "2011-12-31T23:59:00",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2011-03-01T16:00:00"
+          }, {
+            "count" : 19,
+            "item" : "2011-09-01T00:00:00"
+          }, {
+            "count" : 18,
+            "item" : "2011-09-01T08:00:00"
+          }, {
+            "count" : 17,
+            "item" : "2011-07-04T00:01:00"
+          }, {
+            "count" : 16,
+            "item" : "2011-12-31T09:00:00"
+          }, {
+            "count" : 15,
+            "item" : "2011-08-08T00:01:00"
+          }, {
+            "count" : 14,
+            "item" : "2011-11-03T17:00:00"
+          }, {
+            "count" : 13,
+            "item" : "2011-10-01T00:00:00"
+          }, {
+            "count" : 12,
+            "item" : "2011-07-13T12:00:00"
+          }, {
+            "count" : 11,
+            "item" : "2011-05-09T00:01:00"
+          }, {
+            "count" : 10,
+            "item" : "2011-07-20T10:00:00"
+          }, {
+            "count" : 9,
+            "item" : "2011-05-08T23:59:00"
+          }, {
+            "count" : 8,
+            "item" : "2011-12-20T15:00:00"
+          }, {
+            "count" : 7,
+            "item" : "2011-07-27T14:00:00"
+          }, {
+            "count" : 6,
+            "item" : "2011-07-01T00:00:00"
+          }, {
+            "count" : 5,
+            "item" : "2011-10-17T10:30:00"
+          }, {
+            "count" : 4,
+            "item" : "2011-12-01T23:00:00"
+          }, {
+            "count" : 3,
+            "item" : "2011-01-01T01:00:00"
+          }, {
+            "count" : 2,
+            "item" : "2011-04-01T01:00:00"
+          }, {
+            "count" : 1,
+            "item" : "2011-12-01T09:00:00"
+          } ]
+        },
+        "format" : {
+          "align" : "left",
+          "view" : "date_time"
+        }
+      }, {
+        "id" : 9265574,
+        "name" : "Block",
+        "dataTypeName" : "text",
+        "fieldName" : "block",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514297,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 349780,
+          "smallest" : "0000X E 100TH PL",
+          "null" : 0,
+          "largest" : "137XX S TORRENCE AVE",
+          "top" : [ {
+            "count" : 20,
+            "item" : "014XX W MONROE ST"
+          }, {
+            "count" : 19,
+            "item" : "002XX S RACINE AVE"
+          }, {
+            "count" : 18,
+            "item" : "027XX N MONITOR AVE"
+          }, {
+            "count" : 17,
+            "item" : "007XX E 107TH ST"
+          }, {
+            "count" : 16,
+            "item" : "060XX S RACINE AVE"
+          }, {
+            "count" : 15,
+            "item" : "071XX S COLES AVE"
+          }, {
+            "count" : 14,
+            "item" : "040XX W ADDISON ST"
+          }, {
+            "count" : 13,
+            "item" : "040XX W 21ST PL"
+          }, {
+            "count" : 12,
+            "item" : "064XX W DIVERSEY AVE"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9265575,
+        "name" : "IUCR",
+        "dataTypeName" : "text",
+        "fieldName" : "iucr",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514298,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 349780,
+          "smallest" : "0110",
+          "null" : 0,
+          "largest" : "5110",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1310"
+          }, {
+            "count" : 19,
+            "item" : "0460"
+          }, {
+            "count" : 18,
+            "item" : "0810"
+          }, {
+            "count" : 17,
+            "item" : "0486"
+          }, {
+            "count" : 16,
+            "item" : "1811"
+          }, {
+            "count" : 15,
+            "item" : "0560"
+          }, {
+            "count" : 14,
+            "item" : "1320"
+          }, {
+            "count" : 13,
+            "item" : "0320"
+          }, {
+            "count" : 12,
+            "item" : "0910"
+          }, {
+            "count" : 11,
+            "item" : "0820"
+          }, {
+            "count" : 10,
+            "item" : "0890"
+          }, {
+            "count" : 9,
+            "item" : "0610"
+          }, {
+            "count" : 8,
+            "item" : "2820"
+          }, {
+            "count" : 7,
+            "item" : "0860"
+          }, {
+            "count" : 6,
+            "item" : "2024"
+          }, {
+            "count" : 5,
+            "item" : "1330"
+          }, {
+            "count" : 4,
+            "item" : "0620"
+          }, {
+            "count" : 3,
+            "item" : "031A"
+          }, {
+            "count" : 2,
+            "item" : "2027"
+          }, {
+            "count" : 1,
+            "item" : "2825"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9265576,
+        "name" : "Primary Type",
+        "dataTypeName" : "text",
+        "fieldName" : "primary_type",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514299,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 349780,
+          "smallest" : "ARSON",
+          "null" : 0,
+          "largest" : "WEAPONS VIOLATION",
+          "top" : [ {
+            "count" : 20,
+            "item" : "CRIMINAL DAMAGE"
+          }, {
+            "count" : 19,
+            "item" : "BATTERY"
+          }, {
+            "count" : 18,
+            "item" : "CRIMINAL TRESPASS"
+          }, {
+            "count" : 17,
+            "item" : "THEFT"
+          }, {
+            "count" : 16,
+            "item" : "MOTOR VEHICLE THEFT"
+          }, {
+            "count" : 15,
+            "item" : "NARCOTICS"
+          }, {
+            "count" : 14,
+            "item" : "WEAPONS VIOLATION"
+          }, {
+            "count" : 13,
+            "item" : "ASSAULT"
+          }, {
+            "count" : 12,
+            "item" : "ROBBERY"
+          }, {
+            "count" : 11,
+            "item" : "LIQUOR LAW VIOLATION"
+          }, {
+            "count" : 10,
+            "item" : "BURGLARY"
+          }, {
+            "count" : 9,
+            "item" : "PUBLIC PEACE VIOLATION"
+          }, {
+            "count" : 8,
+            "item" : "OTHER OFFENSE"
+          }, {
+            "count" : 7,
+            "item" : "SEX OFFENSE"
+          }, {
+            "count" : 6,
+            "item" : "CRIM SEXUAL ASSAULT"
+          }, {
+            "count" : 5,
+            "item" : "DECEPTIVE PRACTICE"
+          }, {
+            "count" : 4,
+            "item" : "PROSTITUTION"
+          }, {
+            "count" : 3,
+            "item" : "OFFENSE INVOLVING CHILDREN"
+          }, {
+            "count" : 2,
+            "item" : "KIDNAPPING"
+          }, {
+            "count" : 1,
+            "item" : "INTERFERE WITH PUBLIC OFFICER"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9265577,
+        "name" : "Description",
+        "dataTypeName" : "text",
+        "fieldName" : "description",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514300,
+        "width" : 232,
+        "cachedContents" : {
+          "non_null" : 349780,
+          "smallest" : "$300 AND UNDER",
+          "null" : 0,
+          "largest" : "WIREROOM/SPORTS",
+          "top" : [ {
+            "count" : 20,
+            "item" : "TO PROPERTY"
+          }, {
+            "count" : 19,
+            "item" : "SIMPLE"
+          }, {
+            "count" : 18,
+            "item" : "DOMESTIC BATTERY SIMPLE"
+          }, {
+            "count" : 17,
+            "item" : "POSS: CANNABIS 30GMS OR LESS"
+          }, {
+            "count" : 16,
+            "item" : "TO VEHICLE"
+          }, {
+            "count" : 15,
+            "item" : "STRONGARM - NO WEAPON"
+          }, {
+            "count" : 14,
+            "item" : "AUTOMOBILE"
+          }, {
+            "count" : 13,
+            "item" : "FROM BUILDING"
+          }, {
+            "count" : 12,
+            "item" : "FORCIBLE ENTRY"
+          }, {
+            "count" : 11,
+            "item" : "TELEPHONE THREAT"
+          }, {
+            "count" : 10,
+            "item" : "RETAIL THEFT"
+          }, {
+            "count" : 9,
+            "item" : "POSS: HEROIN(WHITE)"
+          }, {
+            "count" : 8,
+            "item" : "TO LAND"
+          }, {
+            "count" : 7,
+            "item" : "UNLAWFUL ENTRY"
+          }, {
+            "count" : 6,
+            "item" : "POSS: CRACK"
+          }, {
+            "count" : 5,
+            "item" : "HARASSMENT BY TELEPHONE"
+          }, {
+            "count" : 4,
+            "item" : "OVER $500"
+          }, {
+            "count" : 3,
+            "item" : "$500 AND UNDER"
+          }, {
+            "count" : 2,
+            "item" : "AGGRAVATED: OTHER DANG WEAPON"
+          }, {
+            "count" : 1,
+            "item" : "ARMED: HANDGUN"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9265578,
+        "name" : "Location Description",
+        "dataTypeName" : "text",
+        "fieldName" : "location_description",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514301,
+        "width" : 340,
+        "cachedContents" : {
+          "non_null" : 349550,
+          "smallest" : "ABANDONED BUILDING",
+          "null" : 230,
+          "largest" : "YARD",
+          "top" : [ {
+            "count" : 20,
+            "item" : "APARTMENT"
+          }, {
+            "count" : 19,
+            "item" : "OTHER"
+          }, {
+            "count" : 18,
+            "item" : "BAR OR TAVERN"
+          }, {
+            "count" : 17,
+            "item" : "RESIDENCE"
+          }, {
+            "count" : 16,
+            "item" : "VEHICLE NON-COMMERCIAL"
+          }, {
+            "count" : 15,
+            "item" : "SIDEWALK"
+          }, {
+            "count" : 14,
+            "item" : "RESIDENCE PORCH/HALLWAY"
+          }, {
+            "count" : 13,
+            "item" : "RESIDENTIAL YARD (FRONT/BACK)"
+          }, {
+            "count" : 12,
+            "item" : "PARKING LOT/GARAGE(NON.RESID.)"
+          }, {
+            "count" : 11,
+            "item" : "STREET"
+          }, {
+            "count" : 10,
+            "item" : "ALLEY"
+          }, {
+            "count" : 9,
+            "item" : "GAS STATION"
+          }, {
+            "count" : 8,
+            "item" : "SMALL RETAIL STORE"
+          }, {
+            "count" : 7,
+            "item" : "RESTAURANT"
+          }, {
+            "count" : 6,
+            "item" : "CTA PLATFORM"
+          }, {
+            "count" : 5,
+            "item" : "CTA TRAIN"
+          }, {
+            "count" : 4,
+            "item" : "RESIDENCE-GARAGE"
+          }, {
+            "count" : 3,
+            "item" : "GROCERY FOOD STORE"
+          }, {
+            "count" : 2,
+            "item" : "DEPARTMENT STORE"
+          }, {
+            "count" : 1,
+            "item" : "SCHOOL, PUBLIC, BUILDING"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9265579,
+        "name" : "Arrest",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "arrest",
+        "position" : 8,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1514302,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 349780,
+          "smallest" : false,
+          "null" : 0,
+          "largest" : true,
+          "top" : [ {
+            "count" : 20,
+            "item" : false
+          }, {
+            "count" : 19,
+            "item" : true
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9265580,
+        "name" : "Domestic",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "domestic",
+        "position" : 9,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1514303,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 349780,
+          "smallest" : false,
+          "null" : 0,
+          "largest" : true,
+          "top" : [ {
+            "count" : 20,
+            "item" : false
+          }, {
+            "count" : 19,
+            "item" : true
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9265581,
+        "name" : "Beat",
+        "dataTypeName" : "text",
+        "fieldName" : "beat",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514304,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 349780,
+          "smallest" : "0111",
+          "null" : 0,
+          "largest" : "2535",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0114"
+          }, {
+            "count" : 19,
+            "item" : "2212"
+          }, {
+            "count" : 18,
+            "item" : "1211"
+          }, {
+            "count" : 17,
+            "item" : "0811"
+          }, {
+            "count" : 16,
+            "item" : "1213"
+          }, {
+            "count" : 15,
+            "item" : "1731"
+          }, {
+            "count" : 14,
+            "item" : "1012"
+          }, {
+            "count" : 13,
+            "item" : "2511"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9265582,
+        "name" : "Ward",
+        "dataTypeName" : "number",
+        "fieldName" : "ward",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1514305,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 349765,
+          "smallest" : "1",
+          "sum" : "7918081",
+          "null" : 15,
+          "average" : "22.63828856517948",
+          "largest" : "50",
+          "top" : [ {
+            "count" : 20,
+            "item" : "15"
+          }, {
+            "count" : 19,
+            "item" : "20"
+          }, {
+            "count" : 18,
+            "item" : "16"
+          }, {
+            "count" : 17,
+            "item" : "42"
+          }, {
+            "count" : 16,
+            "item" : "37"
+          }, {
+            "count" : 15,
+            "item" : "34"
+          }, {
+            "count" : 14,
+            "item" : "6"
+          }, {
+            "count" : 13,
+            "item" : "3"
+          }, {
+            "count" : 12,
+            "item" : "27"
+          }, {
+            "count" : 11,
+            "item" : "28"
+          }, {
+            "count" : 10,
+            "item" : "17"
+          }, {
+            "count" : 9,
+            "item" : "5"
+          }, {
+            "count" : 8,
+            "item" : "2"
+          }, {
+            "count" : 7,
+            "item" : "24"
+          }, {
+            "count" : 6,
+            "item" : "21"
+          }, {
+            "count" : 5,
+            "item" : "29"
+          }, {
+            "count" : 4,
+            "item" : "8"
+          }, {
+            "count" : 3,
+            "item" : "7"
+          }, {
+            "count" : 2,
+            "item" : "9"
+          }, {
+            "count" : 1,
+            "item" : "1"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9265583,
+        "name" : "FBI Code",
+        "dataTypeName" : "text",
+        "fieldName" : "fbi_code",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514306,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 349780,
+          "smallest" : "01A",
+          "null" : 0,
+          "largest" : "26",
+          "top" : [ {
+            "count" : 20,
+            "item" : "14"
+          }, {
+            "count" : 19,
+            "item" : "08B"
+          }, {
+            "count" : 18,
+            "item" : "26"
+          }, {
+            "count" : 17,
+            "item" : "06"
+          }, {
+            "count" : 16,
+            "item" : "07"
+          }, {
+            "count" : 15,
+            "item" : "18"
+          }, {
+            "count" : 14,
+            "item" : "15"
+          }, {
+            "count" : 13,
+            "item" : "08A"
+          }, {
+            "count" : 12,
+            "item" : "04B"
+          }, {
+            "count" : 11,
+            "item" : "03"
+          }, {
+            "count" : 10,
+            "item" : "22"
+          }, {
+            "count" : 9,
+            "item" : "05"
+          }, {
+            "count" : 8,
+            "item" : "24"
+          }, {
+            "count" : 7,
+            "item" : "04A"
+          }, {
+            "count" : 6,
+            "item" : "17"
+          }, {
+            "count" : 5,
+            "item" : "02"
+          }, {
+            "count" : 4,
+            "item" : "11"
+          }, {
+            "count" : 3,
+            "item" : "16"
+          }, {
+            "count" : 2,
+            "item" : "10"
+          }, {
+            "count" : 1,
+            "item" : "09"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9265584,
+        "name" : "X Coordinate",
+        "dataTypeName" : "number",
+        "fieldName" : "x_coordinate",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1514307,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 349687,
+          "smallest" : "1094469",
+          "sum" : "407228359588",
+          "null" : 93,
+          "average" : "1164551.040181648",
+          "largest" : "1205078",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1159341"
+          }, {
+            "count" : 19,
+            "item" : "1182598"
+          }, {
+            "count" : 18,
+            "item" : "1167272"
+          }, {
+            "count" : 17,
+            "item" : "1183623"
+          }, {
+            "count" : 16,
+            "item" : "1159381"
+          }, {
+            "count" : 15,
+            "item" : "1141798"
+          }, {
+            "count" : 14,
+            "item" : "1152409"
+          }, {
+            "count" : 13,
+            "item" : "1150235"
+          }, {
+            "count" : 12,
+            "item" : "1178009"
+          }, {
+            "count" : 11,
+            "item" : "1141969"
+          }, {
+            "count" : 10,
+            "item" : "1130022"
+          }, {
+            "count" : 9,
+            "item" : "1177376"
+          }, {
+            "count" : 8,
+            "item" : "1167415"
+          }, {
+            "count" : 7,
+            "item" : "1153872"
+          }, {
+            "count" : 6,
+            "item" : "1154599"
+          }, {
+            "count" : 5,
+            "item" : "1165804"
+          }, {
+            "count" : 4,
+            "item" : "1131001"
+          }, {
+            "count" : 3,
+            "item" : "1190269"
+          }, {
+            "count" : 2,
+            "item" : "1156782"
+          }, {
+            "count" : 1,
+            "item" : "1167013"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 9265585,
+        "name" : "Y Coordinate",
+        "dataTypeName" : "number",
+        "fieldName" : "y_coordinate",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1514308,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 349687,
+          "smallest" : "1813949",
+          "sum" : "659168155116",
+          "null" : 93,
+          "average" : "1885023.335485734",
+          "largest" : "1951537",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1876008"
+          }, {
+            "count" : 19,
+            "item" : "1869424"
+          }, {
+            "count" : 18,
+            "item" : "1860340"
+          }, {
+            "count" : 17,
+            "item" : "1850711"
+          }, {
+            "count" : 16,
+            "item" : "1900639"
+          }, {
+            "count" : 15,
+            "item" : "1912965"
+          }, {
+            "count" : 14,
+            "item" : "1934079"
+          }, {
+            "count" : 13,
+            "item" : "1871673"
+          }, {
+            "count" : 12,
+            "item" : "1873166"
+          }, {
+            "count" : 11,
+            "item" : "1903282"
+          }, {
+            "count" : 10,
+            "item" : "1924279"
+          }, {
+            "count" : 9,
+            "item" : "1906134"
+          }, {
+            "count" : 8,
+            "item" : "1837559"
+          }, {
+            "count" : 7,
+            "item" : "1912661"
+          }, {
+            "count" : 6,
+            "item" : "1941208"
+          }, {
+            "count" : 5,
+            "item" : "1827885"
+          }, {
+            "count" : 4,
+            "item" : "1942699"
+          }, {
+            "count" : 3,
+            "item" : "1853365"
+          }, {
+            "count" : 2,
+            "item" : "1896186"
+          }, {
+            "count" : 1,
+            "item" : "1899705"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 9265587,
+        "name" : "Year",
+        "dataTypeName" : "number",
+        "fieldName" : "year",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1518776,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 349780,
+          "smallest" : "2011",
+          "sum" : "703407580",
+          "null" : 0,
+          "average" : "2011",
+          "largest" : "2011",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2011"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 9265588,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1514309,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 349687,
+          "smallest" : "41.64471369097245",
+          "sum" : "14630939.539332154732589",
+          "null" : 93,
+          "average" : "41.84010140306089",
+          "largest" : "42.022659175268615",
+          "top" : [ {
+            "count" : 20,
+            "item" : "41.81548651263491"
+          }, {
+            "count" : 19,
+            "item" : "41.796910783732024"
+          }, {
+            "count" : 18,
+            "item" : "41.77232530439569"
+          }, {
+            "count" : 17,
+            "item" : "41.74553668448364"
+          }, {
+            "count" : 16,
+            "item" : "41.88307580534009"
+          }, {
+            "count" : 15,
+            "item" : "41.91724321401133"
+          }, {
+            "count" : 14,
+            "item" : "41.97497844259961"
+          }, {
+            "count" : 13,
+            "item" : "41.803772567363886"
+          }, {
+            "count" : 12,
+            "item" : "41.80728450190168"
+          }, {
+            "count" : 11,
+            "item" : "41.89066879107552"
+          }, {
+            "count" : 10,
+            "item" : "41.94850015486496"
+          }, {
+            "count" : 9,
+            "item" : "41.897765295429984"
+          }, {
+            "count" : 8,
+            "item" : "41.70980790142066"
+          }, {
+            "count" : 7,
+            "item" : "41.91617680977834"
+          }, {
+            "count" : 6,
+            "item" : "41.99449711922517"
+          }, {
+            "count" : 5,
+            "item" : "41.68329510217333"
+          }, {
+            "count" : 4,
+            "item" : "41.9990296048595"
+          }, {
+            "count" : 3,
+            "item" : "41.75266207500553"
+          }, {
+            "count" : 2,
+            "item" : "41.8709093821014"
+          }, {
+            "count" : 1,
+            "item" : "41.88035247067836"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9265589,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1514310,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 349687,
+          "smallest" : "-87.92788611638608",
+          "sum" : "-30657655.46308086061013",
+          "null" : 93,
+          "average" : "-87.67170487630613",
+          "largest" : "-87.52467610030516",
+          "top" : [ {
+            "count" : 20,
+            "item" : "-87.69102667697646"
+          }, {
+            "count" : 19,
+            "item" : "-87.60592096930658"
+          }, {
+            "count" : 18,
+            "item" : "-87.66238291131968"
+          }, {
+            "count" : 17,
+            "item" : "-87.60274515090317"
+          }, {
+            "count" : 16,
+            "item" : "-87.69020329394547"
+          }, {
+            "count" : 15,
+            "item" : "-87.75446422644427"
+          }, {
+            "count" : 14,
+            "item" : "-87.71491930692417"
+          }, {
+            "count" : 13,
+            "item" : "-87.72454205037074"
+          }, {
+            "count" : 12,
+            "item" : "-87.62263573314387"
+          }, {
+            "count" : 11,
+            "item" : "-87.75407618880419"
+          }, {
+            "count" : 10,
+            "item" : "-87.79747036279444"
+          }, {
+            "count" : 9,
+            "item" : "-87.62395846424397"
+          }, {
+            "count" : 8,
+            "item" : "-87.6625096800589"
+          }, {
+            "count" : 7,
+            "item" : "-87.71011201726397"
+          }, {
+            "count" : 6,
+            "item" : "-87.70667411311685"
+          }, {
+            "count" : 5,
+            "item" : "-87.66868281007294"
+          }, {
+            "count" : 4,
+            "item" : "-87.79344496633817"
+          }, {
+            "count" : 3,
+            "item" : "-87.57830802660258"
+          }, {
+            "count" : 2,
+            "item" : "-87.69986766718924"
+          }, {
+            "count" : 1,
+            "item" : "-87.6622050919773"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 9265590,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 18,
+        "renderTypeName" : "location",
+        "tableColumnId" : 1514311,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 349687,
+          "smallest" : {
+            "longitude" : -87.7021574262032,
+            "latitude" : 41.78213927649293
+          },
+          "null" : 93,
+          "largest" : {
+            "longitude" : -87.58892536901098,
+            "latitude" : 41.7374016749239
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "longitude" : -87.69102667697646,
+              "latitude" : 41.81548651263491
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : -87.60592096930658,
+              "latitude" : 41.796910783732024
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "longitude" : -87.66238291131968,
+              "latitude" : 41.77232530439569
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "longitude" : -87.60274515090317,
+              "latitude" : 41.74553668448364
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "longitude" : -87.69020329394547,
+              "latitude" : 41.88307580534009
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "longitude" : -87.75446422644427,
+              "latitude" : 41.91724321401133
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "longitude" : -87.71491930692417,
+              "latitude" : 41.97497844259961
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "longitude" : -87.72454205037074,
+              "latitude" : 41.803772567363886
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "longitude" : -87.62263573314387,
+              "latitude" : 41.80728450190168
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "longitude" : -87.75407618880419,
+              "latitude" : 41.89066879107552
+            }
+          }, {
+            "count" : 10,
+            "item" : {
+              "longitude" : -87.79747036279444,
+              "latitude" : 41.94850015486496
+            }
+          }, {
+            "count" : 9,
+            "item" : {
+              "longitude" : -87.62395846424397,
+              "latitude" : 41.897765295429984
+            }
+          }, {
+            "count" : 8,
+            "item" : {
+              "longitude" : -87.6625096800589,
+              "latitude" : 41.70980790142066
+            }
+          }, {
+            "count" : 7,
+            "item" : {
+              "longitude" : -87.71011201726397,
+              "latitude" : 41.91617680977834
+            }
+          }, {
+            "count" : 6,
+            "item" : {
+              "longitude" : -87.70667411311685,
+              "latitude" : 41.99449711922517
+            }
+          }, {
+            "count" : 5,
+            "item" : {
+              "longitude" : -87.66868281007294,
+              "latitude" : 41.68329510217333
+            }
+          }, {
+            "count" : 4,
+            "item" : {
+              "longitude" : -87.79344496633817,
+              "latitude" : 41.9990296048595
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "longitude" : -87.57830802660258,
+              "latitude" : 41.75266207500553
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "longitude" : -87.69986766718924,
+              "latitude" : 41.8709093821014
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.6622050919773,
+              "latitude" : 41.88035247067836
+            }
+          } ]
+        },
+        "format" : {
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Metadata" : {
+            "Data Owner" : "Police",
+            "Time Period" : "2001 to present, minus the most recent seven days",
+            "Frequency" : "Data is updated daily, Tuesday through Sunday"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "warnings" : [ "Error at row 1: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format 'dateocc'. There was an error converting the value in the column Arrest(8) to a checkbox. Unknown boolean format 'arrest'. There was an error converting the value in the column Domestic(9) to a checkbox. Unknown boolean format 'domestic'. There was an error converting the value in the column Ward(11) to a number. Unknown number format 'WARD'. There was an error converting the value in the column X Coordinate(13) to a number. Unknown number format 'X_COORD'. There was an error converting the value in the column Y Coordinate(14) to a number. Unknown number format 'Y_COORD'. There was an error converting the value in the column Year(15) to a number. Unknown number format 'YEAR'. There was an error converting the value in the column Latitude(16) to a number. Unknown number format 'LATITUDE'. There was an error converting the value in the column Longitude(17) to a number. Unknown number format 'LONGITUDE'. There was an error converting the value in the column Location(18) to a location. Unparsable address.", "Error at row 9198: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 28010: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 34720: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 34956: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 34848: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 79104: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 130689: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 144977: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 144839: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 210747: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 213335: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 231407: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 289945: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 296493: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 322023: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 339708: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 347768: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 372426: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 399445: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 410777: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 411701: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 414883: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 433053: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 513966: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 549715: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 576752: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 588150: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 589258: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 595669: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 595506: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 609008: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 773781: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 848669: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 1138801: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 1251681: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 1288809: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 1475053: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 1641795: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 1671225: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 1722500: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 1739901: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 1983099: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 2041835: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 2706103: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 2774877: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 3227325: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 3407694: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''." ]
+      },
+      "owner" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/4783/7574/CitySeal_Small_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/4783/7574/CitySeal_Small_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/4783/7574/CitySeal_Small_tiny.jpg",
+        "profileLastModified" : 1327605094,
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages" ]
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "OR",
+            "metadata" : {
+              "tableColumnId" : {
+                "239997" : 1514295
+              },
+              "operator" : "EQUALS"
+            }
+          }, {
+            "type" : "operator",
+            "value" : "OR",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 9265587,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2011"
+              } ],
+              "metadata" : {
+                "freeform" : false
+              }
+            } ],
+            "metadata" : {
+              "tableColumnId" : {
+                "239997" : 1518776
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "metadata" : {
+            "unifiedVersion" : 2
+          }
+        }
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/4783/7574/CitySeal_Small_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/4783/7574/CitySeal_Small_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/4783/7574/CitySeal_Small_tiny.jpg",
+        "profileLastModified" : 1327605094,
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages" ]
+      },
+      "tags" : [ "crime", "police" ],
+      "viewFilters" : {
+        "type" : "operator",
+        "value" : "AND",
+        "children" : [ {
+          "type" : "operator",
+          "value" : "OR",
+          "metadata" : {
+            "tableColumnId" : {
+              "239997" : 1514295
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "type" : "operator",
+          "value" : "OR",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 9265587,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "2011"
+            } ],
+            "metadata" : {
+              "freeform" : false
+            }
+          } ],
+          "metadata" : {
+            "tableColumnId" : {
+              "239997" : 1518776
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "metadata" : {
+          "unifiedVersion" : 2
+        }
+      }
+    }
+  },
+  "data" : [ [ 4441612, "CFA9370C-AE69-4948-9F4C-2EE52B56E3F3", 4441612, 1333578815, "21484", 1333578815, "21484", "{\n}", "HT120964", "2011-01-15T08:00:00", "022XX N SAWYER AVE", "0918", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE NO VIN", "STREET", false, false, "1413", "26", "07", "1154100", "1914775", "2011", "41.92197325387426", "-87.70921782934242", [ null, "41.92197325387426", "-87.70921782934242", null, false ] ]
+, [ 4442842, "D1554563-5AEB-4864-98EA-D497D4DE0417", 4442842, 1333578816, "21484", 1333578816, "21484", "{\n}", "HT122068", "2011-01-15T20:00:00", "049XX S KOLIN AVE", "0918", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE NO VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "0815", "23", "07", "1148244", "1871182", "2011", "41.802463655566854", "-87.73185674922625", [ null, "41.802463655566854", "-87.73185674922625", null, false ] ]
+, [ 4455139, "702D238D-6BC2-4898-A187-6DFDE1AD18E4", 4455139, 1333578823, "21484", 1333578823, "21484", "{\n}", "HT143330", "2011-01-29T15:00:00", "020XX N LARRABEE ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1812", "43", "07", "1171974", "1914025", "2011", "41.919539469200046", "-87.64356618205434", [ null, "41.919539469200046", "-87.64356618205434", null, false ] ]
+, [ 4456541, "6BE1634E-BE6B-4023-BA5D-12CE7FC844EC", 4456541, 1333578824, "21484", 1333578824, "21484", "{\n}", "HT145525", "2011-01-31T12:00:00", "037XX N PINE GROVE AVE", "0918", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE NO VIN", "ALLEY", false, false, "2323", "46", "07", "1170952", "1925323", "2011", "41.9505641541691", "-87.64698880456021", [ null, "41.9505641541691", "-87.64698880456021", null, false ] ]
+, [ 4478603, "D63248D3-A0C9-487F-871E-C2247A1DCA65", 4478603, 1333578836, "21484", 1333578836, "21484", "{\n}", "HT182937", "2011-02-28T19:00:00", "022XX W 19TH ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENCE PORCH/HALLWAY", true, false, "1223", "25", "07", "1161717", "1890662", "2011", "41.85564962871286", "-87.68190340327182", [ null, "41.85564962871286", "-87.68190340327182", null, false ] ]
+, [ 4478608, "74DC0F11-814F-45CF-BBC6-BEC88D8937FA", 4478608, 1333578836, "21484", 1333578836, "21484", "{\n}", "HT184421", "2011-03-01T18:30:00", "122XX S WALLACE ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0523", "34", "07", "1174474", "1823918", "2011", "41.67222108991947", "-87.63706238589495", [ null, "41.67222108991947", "-87.63706238589495", null, false ] ]
+, [ 4483295, "381F6035-C652-404E-8461-98DCDE91C0F3", 4483295, 1333578839, "21484", 1333578839, "21484", "{\n}", "HT192098", "2011-03-03T21:00:00", "017XX W STEUBEN ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2234", "34", "07", "1166831", "1829339", "2011", "41.687263324750035", "-87.66488201558293", [ null, "41.687263324750035", "-87.66488201558293", null, false ] ]
+, [ 4483950, "8403435C-256F-4BEE-9E08-8E2E026EA736", 4483950, 1333578839, "21484", 1333578839, "21484", "{\n}", "HT193155", "2011-03-07T23:37:00", "016XX N CAMPBELL AVE", "0937", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN", "SIDEWALK", true, false, "1434", "1", "07", "1159408", "1910787", "2011", "41.910922218218346", "-87.68982464819355", [ null, "41.910922218218346", "-87.68982464819355", null, false ] ]
+, [ 4486231, "C8436657-B4BA-4EB8-BDD8-811C757E5DFA", 4486231, 1333578840, "21484", 1333578840, "21484", "{\n}", "HT196529", "2011-02-10T09:00:00", "019XX E 71ST ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "0333", "5", "07", "1190498", "1858209", "2011", "41.76594890212588", "-87.57731284663778", [ null, "41.76594890212588", "-87.57731284663778", null, false ] ]
+, [ 4492567, "DAC2938B-92DC-4A94-83D0-1E85649FD7D4", 4492567, 1333578844, "21484", 1333578844, "21484", "{\n}", "HT206278", "2011-03-16T20:30:00", "054XX S NATOMA AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "DRIVEWAY - RESIDENTIAL", false, false, "0811", "23", "07", "1132929", "1867865", "2011", "41.79364156776668", "-87.78810176300682", [ null, "41.79364156776668", "-87.78810176300682", null, false ] ]
+, [ 4498731, "66D98EEE-AC88-4E1C-808D-9A3A1CEF1787", 4498731, 1333578848, "21484", 1333578848, "21484", "{\n}", "HT215610", "2011-03-23T00:10:00", "054XX W CONGRESS PKWY", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "1522", "29", "07", "1140431", "1897115", "2011", "41.87377411199442", "-87.75987589101437", [ null, "41.87377411199442", "-87.75987589101437", null, false ] ]
+, [ 4498853, "ECFC0010-71FE-40D7-8266-BB536B375A9A", 4498853, 1333578848, "21484", 1333578848, "21484", "{\n}", "HT214978", "2011-03-22T14:15:00", "016XX S PRAIRIE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "ANIMAL HOSPITAL", false, false, "0133", "2", "07", "1178304", "1892428", "2011", "41.860134189097835", "-87.6209678991", [ null, "41.860134189097835", "-87.6209678991", null, false ] ]
+, [ 4500185, "63877899-AA5A-4C6E-89DA-5326F5B5A48E", 4500185, 1333578849, "21484", 1333578849, "21484", "{\n}", "HT217843", "2011-03-24T14:30:00", "075XX S EVANS AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "0624", "6", "07", "1182492", "1855087", "2011", "41.757571170238485", "-87.60675389004624", [ null, "41.757571170238485", "-87.60675389004624", null, false ] ]
+, [ 4502110, "028ACE19-CE12-4749-B2E3-89915833421D", 4502110, 1333578850, "21484", 1333578850, "21484", "{\n}", "HT220034", "2011-03-25T08:00:00", "023XX S ST LOUIS AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENCE-GARAGE", false, false, "1024", "22", "07", "1153449", "1887989", "2011", "41.84848272324892", "-87.71232202781073", [ null, "41.84848272324892", "-87.71232202781073", null, false ] ]
+, [ 4507781, "EF2283E1-7CD3-4CD4-B3E4-AB6E40BBA9C5", 4507781, 1333578853, "21484", 1333578853, "21484", "{\n}", "HT229672", "2011-04-01T17:15:00", "006XX W GRACE ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2323", "46", "07", "1171083", "1925799", "2011", "41.95186743472083", "-87.64649323989488", [ null, "41.95186743472083", "-87.64649323989488", null, false ] ]
+, [ 4508331, "A228FD73-C837-436C-BFC0-6348EA013EDD", 4508331, 1333578854, "21484", 1333578854, "21484", "{\n}", "HT230474", "2011-04-01T17:30:00", "027XX N HAMPDEN CT", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2333", "43", "07", "1172326", "1918400", "2011", "41.93153688533151", "-87.64214332362194", [ null, "41.93153688533151", "-87.64214332362194", null, false ] ]
+, [ 4512200, "B317954E-B58C-4265-83CA-0F096C816F52", 4512200, 1333578856, "21484", 1333578856, "21484", "{\n}", "HT236476", "2011-04-06T03:30:00", "037XX W SUNNYSIDE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "1723", "39", "07", "1150386", "1929679", "2011", "41.96294438131292", "-87.72247395491013", [ null, "41.96294438131292", "-87.72247395491013", null, false ] ]
+, [ 4513361, "B8995C19-E7BA-4E9B-BDA4-E2E94DB128F8", 4513361, 1333578857, "21484", 1333578857, "21484", "{\n}", "HT238068", "2011-04-06T19:00:00", "006XX W GRACE ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "2323", "46", "07", "1170874", "1925726", "2011", "41.951671713803954", "-87.64726366578033", [ null, "41.951671713803954", "-87.64726366578033", null, false ] ]
+, [ 4517683, "C2F8324D-8253-4E69-83CB-489725503E35", 4517683, 1333578859, "21484", 1333578859, "21484", "{\n}", "HT245022", "2011-04-11T05:00:00", "066XX S KEATING AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "SIDEWALK", false, false, "0833", "13", "07", "1145895", "1860228", "2011", "41.77244887718886", "-87.74074855363354", [ null, "41.77244887718886", "-87.74074855363354", null, false ] ]
+, [ 4519376, "A571B9F8-4AC5-4B7E-A81C-27AEE7391871", 4519376, 1333578860, "21484", 1333578860, "21484", "{\n}", "HT247520", "2011-04-12T21:30:00", "036XX N PINE GROVE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "2323", "46", "07", "1171371", "1924417", "2011", "41.948068841181254", "-87.64547533323021", [ null, "41.948068841181254", "-87.64547533323021", null, false ] ]
+, [ 4520038, "C542E68D-1002-4CB1-A54C-99667724CCDD", 4520038, 1333578861, "21484", 1333578861, "21484", "{\n}", "HT248538", "2011-04-13T16:00:00", "0000X E ONTARIO ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENCE-GARAGE", false, false, "1834", "42", "07", "1176377", "1904531", "2011", "41.89338919125952", "-87.6276760651803", [ null, "41.89338919125952", "-87.6276760651803", null, false ] ]
+, [ 4520270, "866F19F4-3B3D-4FBF-A493-4F4D9C67FE4B", 4520270, 1333578861, "21484", 1333578861, "21484", "{\n}", "HT248901", "2011-04-13T12:00:00", "0000X E ONTARIO ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "APARTMENT", false, false, "1834", "42", "07", "1176377", "1904531", "2011", "41.89338919125952", "-87.6276760651803", [ null, "41.89338919125952", "-87.6276760651803", null, false ] ]
+, [ 4520510, "4E1CEFA5-F55E-475E-A6C6-66244F9C73FD", 4520510, 1333578861, "21484", 1333578861, "21484", "{\n}", "HT249200", "2011-04-13T23:00:00", "008XX N SACRAMENTO BLVD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "VEHICLE NON-COMMERCIAL", false, false, "1311", "26", "07", "1155970", "1906073", "2011", "41.89805667569603", "-87.70258202059607", [ null, "41.89805667569603", "-87.70258202059607", null, false ] ]
+, [ 4520521, "0903DBFE-EFF4-480C-B8C5-22F979ADA5B6", 4520521, 1333578861, "21484", 1333578861, "21484", "{\n}", "HT249205", "2011-04-13T23:00:00", "008XX N SACRAMENTO BLVD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "VEHICLE NON-COMMERCIAL", false, false, "1311", "26", "07", "1155970", "1906073", "2011", "41.89805667569603", "-87.70258202059607", [ null, "41.89805667569603", "-87.70258202059607", null, false ] ]
+, [ 4521478, "FB9953FD-7A8D-4606-B849-EAFE54C13906", 4521478, 1333578862, "21484", 1333578862, "21484", "{\n}", "HT250717", "2011-04-01T11:00:00", "012XX N MENARD AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENCE-GARAGE", false, false, "2531", "29", "07", "1137417", "1907708", "2011", "41.90289739800362", "-87.77068700665193", [ null, "41.90289739800362", "-87.77068700665193", null, false ] ]
+, [ 4524431, "5966DF88-0B6E-4C70-A97F-04B3274A6F80", 4524431, 1333578863, "21484", 1333578863, "21484", "{\n}", "HT255355", "2011-04-18T03:40:00", "013XX N WELLS ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "1821", "43", "07", "1174495", "1909488", "2011", "41.90703372066", "-87.63443959471282", [ null, "41.90703372066", "-87.63443959471282", null, false ] ]
+, [ 4524439, "E35BB6B3-A438-4086-AA1D-1E1AE97E850D", 4524439, 1333578863, "21484", 1333578863, "21484", "{\n}", "HT255461", "2011-04-18T03:40:00", "013XX N WELLS ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "1821", "43", "07", "1174495", "1909488", "2011", "41.90703372066", "-87.63443959471282", [ null, "41.90703372066", "-87.63443959471282", null, false ] ]
+, [ 4524757, "122209D3-4C91-475B-8307-0A9E3CF56936", 4524757, 1333578864, "21484", 1333578864, "21484", "{\n}", "HT255966", "2011-04-18T16:00:00", "020XX W SUMMERDALE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "2012", "40", "07", "1161543", "1935555", "2011", "41.97884279701982", "-87.6812892490954", [ null, "41.97884279701982", "-87.6812892490954", null, false ] ]
+, [ 4525267, "BE600F8D-3982-49CB-B45E-234988005629", 4525267, 1333578864, "21484", 1333578864, "21484", "{\n}", "HT256505", "2011-04-04T02:00:00", "028XX W HENDERSON ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "1733", "33", "07", "1156854", "1922087", "2011", "41.94198246431896", "-87.69890001769065", [ null, "41.94198246431896", "-87.69890001769065", null, false ] ]
+, [ 4525461, "B6BE8FD1-7CA7-425D-947B-19A9EA7918DB", 4525461, 1333578864, "21484", 1333578864, "21484", "{\n}", "HT256964", "2011-04-18T22:00:00", "034XX W 73RD ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "DRIVEWAY - RESIDENTIAL", false, false, "0835", "18", "07", "1154684", "1855950", "2011", "41.76053867591332", "-87.70864408670799", [ null, "41.76053867591332", "-87.70864408670799", null, false ] ]
+, [ 4526849, "3C67F4A3-3B0A-4BAA-81DF-238733BA306C", 4526849, 1333578865, "21484", 1333578865, "21484", "{\n}", "HT257581", "2011-04-14T17:30:00", "004XX W BARRY AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "2332", "44", "07", "1172699", "1920615", "2011", "41.937606671680044", "-87.64070686362356", [ null, "41.937606671680044", "-87.64070686362356", null, false ] ]
+, [ 4529067, "F3250ED7-648D-466F-9D57-20D485FCD9C3", 4529067, 1333578866, "21484", 1333578866, "21484", "{\n}", "HT262888", "2011-04-22T21:00:00", "042XX W GLADYS AVE", "0918", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE NO VIN", "RESIDENCE-GARAGE", false, false, "1132", "24", "07", "1148087", "1897974", "2011", "41.875987507759994", "-87.73174433548694", [ null, "41.875987507759994", "-87.73174433548694", null, false ] ]
+, [ 4529347, "6067E194-207B-4551-8F5D-5B5C50E69845", 4529347, 1333578866, "21484", 1333578866, "21484", "{\n}", "HT262709", "2011-04-23T12:00:00", "012XX N GREENVIEW AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1433", "1", "07", "1166208", "1908280", "2011", "41.90390013281814", "-87.66491567267958", [ null, "41.90390013281814", "-87.66491567267958", null, false ] ]
+, [ 4529680, "FD89B832-9665-4E0B-A19A-A466E50F6728", 4529680, 1333578867, "21484", 1333578867, "21484", "{\n}", "HT262208", "2011-04-22T07:03:00", "025XX W HIRSCH ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1423", "26", "07", "1159183", "1909261", "2011", "41.906739382793894", "-87.69069322081637", [ null, "41.906739382793894", "-87.69069322081637", null, false ] ]
+, [ 4535692, "6B987018-3E45-47CC-82D3-F5B0D80E2E12", 4535692, 1333578871, "21484", 1333578871, "21484", "{\n}", "HT273072", "2011-04-29T21:30:00", "023XX N KIMBALL AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "1413", "26", "07", "1153282", "1915229", "2011", "41.92323536527808", "-87.71221132486822", [ null, "41.92323536527808", "-87.71221132486822", null, false ] ]
+, [ 4536001, "7264A5C8-1213-461E-BA3F-293AAF608F93", 4536001, 1333578872, "21484", 1333578872, "21484", "{\n}", "HT267329", "2011-04-26T17:00:00", "021XX W 23RD PL", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1034", "25", "07", "1162304", "1888346", "2011", "41.84928205180562", "-87.67981352809917", [ null, "41.84928205180562", "-87.67981352809917", null, false ] ]
+, [ 4536722, "1AC995B8-934B-4F6E-B75F-AC652F554294", 4536722, 1333578872, "21484", 1333578872, "21484", "{\n}", "HT274892", "2011-04-24T15:00:00", "004XX N MC CLURG CT", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1834", "42", "07", "1179090", "1903004", "2011", "41.88913737321913", "-87.61775908626134", [ null, "41.88913737321913", "-87.61775908626134", null, false ] ]
+, [ 4537139, "F3AFB08A-7218-4585-876C-8559D6CEB2F0", 4537139, 1333578872, "21484", 1333578872, "21484", "{\n}", "HT275434", "2011-05-02T02:15:00", "076XX S COLES AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "0421", "7", "07", "1196230", "1855324", "2011", "41.75789208831249", "-87.55639903245186", [ null, "41.75789208831249", "-87.55639903245186", null, false ] ]
+, [ 4537228, "A7658252-373E-4D03-AF71-DD5DD40A6985", 4537228, 1333578872, "21484", 1333578872, "21484", "{\n}", "HT275567", "2011-04-14T17:00:00", "034XX N SOUTHPORT AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1924", "44", "07", "1166402", "1922860", "2011", "41.943904336387185", "-87.66378489459932", [ null, "41.943904336387185", "-87.66378489459932", null, false ] ]
+, [ 4542794, "87C83F2A-6D3A-4126-AB2E-3EA4D741CA19", 4542794, 1333578875, "21484", 1333578875, "21484", "{\n}", "HT284075", "2011-05-07T01:00:00", "016XX S CARPENTER ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1233", "25", "07", "1169426", "1892020", "2011", "41.85921211614372", "-87.65356831722981", [ null, "41.85921211614372", "-87.65356831722981", null, false ] ]
+, [ 4545596, "3243C8B5-8BCF-427B-A98D-EDEE0B0BF942", 4545596, 1333578877, "21484", 1333578877, "21484", "{\n}", "HT288233", "2011-05-09T23:30:00", "011XX N MILWAUKEE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1323", "27", "07", "1166357", "1907644", "2011", "41.90215171877844", "-87.6643865787526", [ null, "41.90215171877844", "-87.6643865787526", null, false ] ]
+, [ 4546391, "09664CD2-F6CB-4278-9545-9846BB2081F0", 4546391, 1333578878, "21484", 1333578878, "21484", "{\n}", "HT289382", "2011-05-09T21:00:00", "021XX W SUPERIOR ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1313", "1", "07", "1161778", "1905016", "2011", "41.89503702853721", "-87.6812792506088", [ null, "41.89503702853721", "-87.6812792506088", null, false ] ]
+, [ 4546561, "02ADA6D1-28A0-4756-913C-602914873221", 4546561, 1333578878, "21484", 1333578878, "21484", "{\n}", "HT289610", "2011-05-10T19:55:00", "030XX W DOUGLAS DR", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1022", "24", "07", "1155969", "1893093", "2011", "41.86243828789783", "-87.70293587784889", [ null, "41.86243828789783", "-87.70293587784889", null, false ] ]
+, [ 4546943, "05DDADF4-D40B-4A49-BB2C-7F40E22FC469", 4546943, 1333578878, "21484", 1333578878, "21484", "{\n}", "HT290159", "2011-05-11T08:30:00", "023XX W ADDISON ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "1913", "47", "07", "1160344", "1923815", "2011", "41.94665260284934", "-87.6860247908563", [ null, "41.94665260284934", "-87.6860247908563", null, false ] ]
+, [ 4547916, "4D63DF65-2DAD-414C-A1C7-CA44230A5F05", 4547916, 1333578878, "21484", 1333578878, "21484", "{\n}", "HT290574", "2011-05-11T09:30:00", "019XX W JACKSON BLVD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "SCHOOL, PUBLIC, GROUNDS", false, false, "1211", "2", "07", "1163272", "1898666", "2011", "41.87758082104155", "-87.67597084396417", [ null, "41.87758082104155", "-87.67597084396417", null, false ] ]
+, [ 4548011, "A06A47DE-EC87-43FF-ACEA-752E37874CE1", 4548011, 1333578879, "21484", 1333578879, "21484", "{\n}", "HT291775", "2011-05-12T07:00:00", "031XX N CAMBRIDGE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2332", "44", "07", "1171980", "1921360", "2011", "41.93966689034543", "-87.64332725645838", [ null, "41.93966689034543", "-87.64332725645838", null, false ] ]
+, [ 4548172, "B2AE0299-50F1-49A9-B2F5-3F5BB78A6939", 4548172, 1333578879, "21484", 1333578879, "21484", "{\n}", "HT292068", "2011-05-11T22:00:00", "004XX W SURF ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2333", "44", "07", "1172836", "1919461", "2011", "41.93443701360287", "-87.64023765679642", [ null, "41.93443701360287", "-87.64023765679642", null, false ] ]
+, [ 4548525, "48B5FC15-209F-4430-90F3-F206093A34EE", 4548525, 1333578879, "21484", 1333578879, "21484", "{\n}", "HT290698", "2011-05-11T14:00:00", "010XX N WOOD ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENCE-GARAGE", false, false, "1322", "1", "07", "1164245", "1906998", "2011", "41.90042397806797", "-87.67216252647776", [ null, "41.90042397806797", "-87.67216252647776", null, false ] ]
+, [ 4548786, "4A46CBED-1C31-4BE3-A923-51B1AFE799F1", 4548786, 1333578879, "21484", 1333578879, "21484", "{\n}", "HT292955", "2011-05-11T23:30:00", "021XX N HUMBOLDT BLVD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "1414", "35", "07", "1155983", "1914080", "2011", "41.92002830395985", "-87.70231792072497", [ null, "41.92002830395985", "-87.70231792072497", null, false ] ]
+, [ 4550643, "749F29F8-BD0E-406B-AA23-D1DFCE8AA0B2", 4550643, 1333578880, "21484", 1333578880, "21484", "{\n}", "HT295750", "2011-05-12T16:00:00", "047XX W CONGRESS PKWY", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "1131", "24", "07", "1144866", "1897313", "2011", "41.874234985284744", "-87.74358751002681", [ null, "41.874234985284744", "-87.74358751002681", null, false ] ]
+, [ 4550645, "5C58DFEA-9D43-4554-AE71-21494FB0BDEC", 4550645, 1333578880, "21484", 1333578880, "21484", "{\n}", "HT295748", "2011-05-10T17:00:00", "003XX N MAY ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1212", "27", "07", "1168728", "1902192", "2011", "41.88714000334345", "-87.65583572967344", [ null, "41.88714000334345", "-87.65583572967344", null, false ] ]
+, [ 4551259, "83F2B823-0732-43DB-9EC6-7A3AB7405618", 4551259, 1333578880, "21484", 1333578880, "21484", "{\n}", "HT296853", "2011-05-15T01:00:00", "007XX S ADA ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1213", "25", "07", "1167614", "1896999", "2011", "41.87291407880609", "-87.66007623354628", [ null, "41.87291407880609", "-87.66007623354628", null, false ] ]
+, [ 4551498, "F0B8A570-064B-432C-8CEC-EB6983962287", 4551498, 1333578880, "21484", 1333578880, "21484", "{\n}", "HT297423", "2011-05-15T07:00:00", "022XX E 70TH ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0331", "5", "07", "1192469", "1859029", "2011", "41.76815127813026", "-87.5700619135325", [ null, "41.76815127813026", "-87.5700619135325", null, false ] ]
+, [ 4551704, "091425B6-B733-4ABD-8E73-B7036079B33A", 4551704, 1333578881, "21484", 1333578881, "21484", "{\n}", "HT297129", "2011-05-15T14:00:00", "060XX N RIDGE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "2433", "40", "07", "1163466", "1940218", "2011", "41.991597839569756", "-87.67408533996775", [ null, "41.991597839569756", "-87.67408533996775", null, false ] ]
+, [ 4551974, "0261B4F9-630F-4213-8A51-3F62FDAD5515", 4551974, 1333578881, "21484", 1333578881, "21484", "{\n}", "HT298079", "2011-05-16T01:00:00", "004XX W BELDEN AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "SPORTS ARENA/STADIUM", false, false, "1812", "43", "07", "1173031", "1915533", "2011", "41.92365409328111", "-87.63963782874299", [ null, "41.92365409328111", "-87.63963782874299", null, false ] ]
+, [ 4552331, "C528ABED-801A-4EFD-9262-BFA84A65CAE7", 4552331, 1333578881, "21484", 1333578881, "21484", "{\n}", "HT298722", "2011-05-15T15:00:00", "006XX W DEMING PL", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1933", "43", "07", "1171435", "1917026", "2011", "41.9277862328953", "-87.64545807945656", [ null, "41.9277862328953", "-87.64545807945656", null, false ] ]
+, [ 4555181, "534B7EAC-4088-4680-9887-22F2F07ADC2B", 4555181, 1333578883, "21484", 1333578883, "21484", "{\n}", "HT302830", "2011-05-19T04:37:00", "017XX S MORGAN ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1233", "25", "07", "1170110", "1891887", "2011", "41.85883226545827", "-87.6510614635558", [ null, "41.85883226545827", "-87.6510614635558", null, false ] ]
+, [ 4555340, "D02020DD-277B-4415-8B8E-A05502661481", 4555340, 1333578883, "21484", 1333578883, "21484", "{\n}", "HT303184", "2011-05-19T09:10:00", "026XX S CALIFORNIA BLVD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1034", "12", "07", "1158326", "1886137", "2011", "41.843302455427455", "-87.69447358943718", [ null, "41.843302455427455", "-87.69447358943718", null, false ] ]
+, [ 4555348, "5167FBFE-12B1-4128-92B1-3D2CF4FFAC5A", 4555348, 1333578883, "21484", 1333578883, "21484", "{\n}", "HT303181", "2011-05-19T09:00:00", "050XX N WOLCOTT AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2032", "47", "07", "1162865", "1933620", "2011", "41.97350536462357", "-87.67648210054483", [ null, "41.97350536462357", "-87.67648210054483", null, false ] ]
+, [ 4555699, "95B431A3-DE2A-4D71-AE53-67ACA9618CBE", 4555699, 1333578883, "21484", 1333578883, "21484", "{\n}", "HT303976", "2011-05-18T21:10:00", "009XX N CAMPBELL AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1312", "1", "07", "1159610", "1906031", "2011", "41.89786721082295", "-87.68921376242037", [ null, "41.89786721082295", "-87.68921376242037", null, false ] ]
+, [ 4556359, "6D18E150-CF49-427C-888F-A568DC0225B0", 4556359, 1333578883, "21484", 1333578883, "21484", "{\n}", "HT303147", "2011-05-16T18:00:00", "059XX N KIMBALL AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1711", "39", "07", "1152666", "1939567", "2011", "41.990032727179184", "-87.71382826256757", [ null, "41.990032727179184", "-87.71382826256757", null, false ] ]
+, [ 4556769, "B0CCEFA2-BF34-4825-8961-295CFACAD854", 4556769, 1333578884, "21484", 1333578884, "21484", "{\n}", "HT305391", "2011-05-16T23:55:00", "010XX W OAKDALE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1932", "44", "07", "1169034", "1919804", "2011", "41.93546171513322", "-87.65419991298535", [ null, "41.93546171513322", "-87.65419991298535", null, false ] ]
+, [ 4557907, "9387C6AB-4581-4969-906B-4F8D0F65B1DC", 4557907, 1333578884, "21484", 1333578884, "21484", "{\n}", "HT307273", "2011-05-19T22:30:00", "023XX W JARVIS AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "2411", "49", "07", "1159141", "1948913", "2011", "42.015547466847316", "-87.6897535064486", [ null, "42.015547466847316", "-87.6897535064486", null, false ] ]
+, [ 4558374, "AA890D7E-1DEF-40D1-9FA5-2953A4B05E79", 4558374, 1333578884, "21484", 1333578884, "21484", "{\n}", "HT308285", "2011-05-21T21:00:00", "029XX N COMMONWEALTH AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2333", "44", "07", "1173400", "1919599", "2011", "41.93480316025094", "-87.63816086565348", [ null, "41.93480316025094", "-87.63816086565348", null, false ] ]
+, [ 4558747, "9F8DE501-CA34-44CB-8F02-A37CDCCF5608", 4558747, 1333578885, "21484", 1333578885, "21484", "{\n}", "HT308970", "2011-05-21T16:00:00", "023XX W SHAKESPEARE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "1432", "32", "07", "1160484", "1914296", "2011", "41.92052895059436", "-87.68577446893615", [ null, "41.92052895059436", "-87.68577446893615", null, false ] ]
+, [ 4559077, "0CF78265-182E-4FA6-96C8-8F68D248D117", 4559077, 1333578885, "21484", 1333578885, "21484", "{\n}", "HT309497", "2011-05-22T22:00:00", "050XX S WASHINGTON PARK CT", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0223", "3", "07", "1180070", "1871454", "2011", "41.80253961080081", "-87.61512913487648", [ null, "41.80253961080081", "-87.61512913487648", null, false ] ]
+, [ 4559280, "7AD8DB4C-49CE-4827-A3B3-A17B536FDD5F", 4559280, 1333578885, "21484", 1333578885, "21484", "{\n}", "HT309841", "2011-05-22T19:00:00", "061XX N HAMILTON AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2413", "40", "07", "1160853", "1940342", "2011", "41.991992894458235", "-87.68369322718182", [ null, "41.991992894458235", "-87.68369322718182", null, false ] ]
+, [ 4559927, "188A2F62-AD2C-4F4F-84DC-4F4322EAD59E", 4559927, 1333578885, "21484", 1333578885, "21484", "{\n}", "HT310994", "2011-05-23T18:30:00", "027XX W CHICAGO AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1313", "26", "07", "1158215", "1905178", "2011", "41.89555513021895", "-87.6943607992211", [ null, "41.89555513021895", "-87.6943607992211", null, false ] ]
+, [ 4560447, "BA9AD084-2774-4B5C-9E5F-9A475C7E0F8C", 4560447, 1333578886, "21484", 1333578886, "21484", "{\n}", "HT311838", "2011-05-23T21:00:00", "004XX N MC CLURG CT", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENCE-GARAGE", false, false, "1834", "42", "07", "1179090", "1903004", "2011", "41.88913737321913", "-87.61775908626134", [ null, "41.88913737321913", "-87.61775908626134", null, false ] ]
+, [ 4561033, "9EE1DDB5-3DFE-4E83-A6D1-31900EAB1C83", 4561033, 1333578886, "21484", 1333578886, "21484", "{\n}", "HT312973", "2011-05-21T19:00:00", "111XX S HALSTED ST", "0927", "MOTOR VEHICLE THEFT", "ATTEMPT: CYCLE, SCOOTER, BIKE W-VIN", "ALLEY", false, false, "2233", "34", "07", "1173012", "1830903", "2011", "41.69142134579063", "-87.64220824330988", [ null, "41.69142134579063", "-87.64220824330988", null, false ] ]
+, [ 4561396, "9C9B3DFF-DF6C-4720-8C2C-57D6FE045E88", 4561396, 1333578886, "21484", 1333578886, "21484", "{\n}", "HT310115", "2011-05-22T22:00:00", "027XX N MARSHFIELD AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1931", "32", "07", "1164893", "1918518", "2011", "41.9320218666912", "-87.66945485689165", [ null, "41.9320218666912", "-87.66945485689165", null, false ] ]
+, [ 4564432, "3C111BC6-59CB-4944-BFA7-0CCBAB5454AC", 4564432, 1333578888, "21484", 1333578888, "21484", "{\n}", "HT316989", "2011-05-27T11:40:00", "007XX N SACRAMENTO BLVD", "0937", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "1313", "27", "07", "1156138", "1904539", "2011", "41.89384384868456", "-87.70200642860866", [ null, "41.89384384868456", "-87.70200642860866", null, false ] ]
+, [ 4564730, "321E3F9F-4F16-4074-BF63-A41990CEA6DC", 4564730, 1333578888, "21484", 1333578888, "21484", "{\n}", "HT317543", "2011-05-26T17:00:00", "023XX N CLEVELAND AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1812", "43", "07", "1172492", "1915952", "2011", "41.92481579580547", "-87.64160588158494", [ null, "41.92481579580547", "-87.64160588158494", null, false ] ]
+, [ 4565062, "806FB3FD-13E7-4167-9ED7-5CAE17E18E21", 4565062, 1333578888, "21484", 1333578888, "21484", "{\n}", "HT318940", "2011-05-28T06:00:00", "023XX W CHICAGO AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "1313", "1", "07", "1160751", "1905236", "2011", "41.89566208244518", "-87.68504504634934", [ null, "41.89566208244518", "-87.68504504634934", null, false ] ]
+, [ 4565161, "F163ECF1-3834-42C3-BE7B-939EAE6DCE29", 4565161, 1333578888, "21484", 1333578888, "21484", "{\n}", "HT319693", "2011-05-26T16:30:00", "036XX N KILPATRICK AVE", "0918", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE NO VIN", "STREET", false, false, "1731", "38", "07", "1144387", "1923552", "2011", "41.946246611246885", "-87.74468504466125", [ null, "41.946246611246885", "-87.74468504466125", null, false ] ]
+, [ 4565631, "F8D6A3C5-5745-47C5-941A-842D61BAB7A3", 4565631, 1333578888, "21484", 1333578888, "21484", "{\n}", "HT320182", "2011-05-27T12:30:00", "023XX N COMMONWEALTH AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1814", "43", "07", "1173409", "1915984", "2011", "41.92488325688139", "-87.63823549384604", [ null, "41.92488325688139", "-87.63823549384604", null, false ] ]
+, [ 4566703, "79DD3D00-9D14-493A-B0F7-3C7B947ACB0F", 4566703, 1333578889, "21484", 1333578889, "21484", "{\n}", "HT322004", "2011-05-30T10:30:00", "003XX W MONTROSE HARBOR DR", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARK PROPERTY", false, false, "2323", "46", "07", "1173921", "1929012", "2011", "41.96062110429832", "-87.63596474130422", [ null, "41.96062110429832", "-87.63596474130422", null, false ] ]
+, [ 4567304, "690CABD7-961A-4ECA-8A03-D28BB721E906", 4567304, 1333578889, "21484", 1333578889, "21484", "{\n}", "HT322861", "2011-05-31T09:51:00", "004XX N LAKE SHORE DR", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1834", "42", "07", "1179970", "1903710", "2011", "41.89105448580138", "-87.61450570138324", [ null, "41.89105448580138", "-87.61450570138324", null, false ] ]
+, [ 4568310, "9BE71074-6316-4CC8-9EEE-BBA53A818F18", 4568310, 1333578890, "21484", 1333578890, "21484", "{\n}", "HT322940", "2011-05-26T06:30:00", "024XX N LAKEVIEW AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "2333", "43", "07", "1173115", "1916577", "2011", "41.92651700858194", "-87.63929813537652", [ null, "41.92651700858194", "-87.63929813537652", null, false ] ]
+, [ 4568636, "1C100D8A-361C-4C05-8FD6-150074C97DC3", 4568636, 1333578890, "21484", 1333578890, "21484", "{\n}", "HT325331", "2011-06-01T12:30:00", "005XX N DEARBORN ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1831", "42", "07", "1175802", "1903918", "2011", "41.89172004435239", "-87.62980627030373", [ null, "41.89172004435239", "-87.62980627030373", null, false ] ]
+, [ 4569317, "A3A3DC1E-CD11-4C7D-95A3-7AE5DF8B1093", 4569317, 1333578891, "21484", 1333578891, "21484", "{\n}", "HT326290", "2011-06-01T20:00:00", "014XX N CLARK ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1821", "42", "07", "1175220", "1910338", "2011", "41.909349919666504", "-87.63175085135029", [ null, "41.909349919666504", "-87.63175085135029", null, false ] ]
+, [ 4570923, "DA8C196E-7F50-4018-B031-BECCB6EE615C", 4570923, 1333578891, "21484", 1333578891, "21484", "{\n}", "HT328071", "2011-06-03T00:30:00", "014XX W CORTEZ ST", "0918", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE NO VIN", "STREET", false, false, "1323", "27", "07", "1166291", "1907060", "2011", "41.900550594854685", "-87.66464572583943", [ null, "41.900550594854685", "-87.66464572583943", null, false ] ]
+, [ 4570949, "02979710-E2C2-4E6E-A86E-BF9D709FACA7", 4570949, 1333578891, "21484", 1333578891, "21484", "{\n}", "HT328572", "2011-06-02T19:00:00", "024XX N LAKEVIEW AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2333", "43", "07", "1173112", "1916664", "2011", "41.926755806848455", "-87.63930657136835", [ null, "41.926755806848455", "-87.63930657136835", null, false ] ]
+, [ 4571130, "4814FBD4-D205-46FD-9CBF-BDA97F2E9B32", 4571130, 1333578892, "21484", 1333578892, "21484", "{\n}", "HT329031", "2011-05-21T15:00:00", "023XX N MILWAUKEE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1414", "35", "07", "1156558", "1915812", "2011", "41.92476941691115", "-87.70015827846795", [ null, "41.92476941691115", "-87.70015827846795", null, false ] ]
+, [ 4571909, "8CB31CAE-1FB8-4CD4-AAF4-C48984C88311", 4571909, 1333578892, "21484", 1333578892, "21484", "{\n}", "HT324111", "2011-05-27T10:00:00", "004XX N MC CLURG CT", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1834", "42", "07", "1179090", "1903004", "2011", "41.88913737321913", "-87.61775908626134", [ null, "41.88913737321913", "-87.61775908626134", null, false ] ]
+, [ 4572643, "5DA60DAF-4C83-4236-8FE6-429864F6A101", 4572643, 1333578892, "21484", 1333578892, "21484", "{\n}", "HT331586", "2011-05-29T23:00:00", "005XX W STRATFORD PL", "0918", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE NO VIN", "STREET", false, false, "2331", "46", "07", "1171918", "1923568", "2011", "41.94572709217397", "-87.64348981518702", [ null, "41.94572709217397", "-87.64348981518702", null, false ] ]
+, [ 4572705, "5A330377-F3C0-492C-9677-636D5A2C9141", 4572705, 1333578892, "21484", 1333578892, "21484", "{\n}", "HT331604", "2011-05-29T18:00:00", "001XX E CHESTNUT ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENCE-GARAGE", true, false, "1833", "42", "07", "1177055", "1906312", "2011", "41.89826101295121", "-87.62513205184682", [ null, "41.89826101295121", "-87.62513205184682", null, false ] ]
+, [ 4573195, "D621D583-F5AF-46E8-B138-9F559ED94C58", 4573195, 1333578893, "21484", 1333578893, "21484", "{\n}", "HT322065", "2011-05-29T13:00:00", "021XX W DIVISION ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1312", "32", "07", "1161662", "1907918", "2011", "41.90300276383999", "-87.6816243230963", [ null, "41.90300276383999", "-87.6816243230963", null, false ] ]
+, [ 4573512, "246DE2CF-54C1-4B41-BF45-8879124C2FF6", 4573512, 1333578893, "21484", 1333578893, "21484", "{\n}", "HT332915", "2011-06-05T20:00:00", "039XX N LAKE SHORE DR", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2323", "46", "07", "1171390", "1926683", "2011", "41.9542864026978", "-87.64533863049822", [ null, "41.9542864026978", "-87.64533863049822", null, false ] ]
+, [ 4573530, "3222CAB7-CF04-4CD3-90A7-D15C20777C91", 4573530, 1333578893, "21484", 1333578893, "21484", "{\n}", "HT332879", "2011-06-05T22:00:00", "028XX N WOODARD ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1412", "35", "07", "1153342", "1918757", "2011", "41.93291529064638", "-87.7118969100728", [ null, "41.93291529064638", "-87.7118969100728", null, false ] ]
+, [ 4573578, "77C66151-0B44-413C-B2C1-63D038D5C0B1", 4573578, 1333578893, "21484", 1333578893, "21484", "{\n}", "HT332916", "2011-06-05T20:00:00", "039XX N LAKE SHORE DR", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "2323", "46", "07", "1171390", "1926683", "2011", "41.9542864026978", "-87.64533863049822", [ null, "41.9542864026978", "-87.64533863049822", null, false ] ]
+, [ 4573769, "20EF9B0F-96CC-4052-9DB3-BE8AB6C2349F", 4573769, 1333578893, "21484", 1333578893, "21484", "{\n}", "HT325954", "2011-06-01T16:00:00", "081XX S ANTHONY AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0414", "8", "07", "1189261", "1851101", "2011", "41.74647366542676", "-87.58207431214498", [ null, "41.74647366542676", "-87.58207431214498", null, false ] ]
+, [ 4574045, "CE76CBEC-DC26-403E-B01B-5C7EEB3C1FB7", 4574045, 1333578893, "21484", 1333578893, "21484", "{\n}", "HT333832", "2011-06-02T16:30:00", "086XX S NORMAL AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "0622", "21", "07", "1174404", "1847752", "2011", "41.737626634077934", "-87.6366128372607", [ null, "41.737626634077934", "-87.6366128372607", null, false ] ]
+, [ 4575420, "90672110-7243-4893-83E2-3F4AEE65D639", 4575420, 1333578894, "21484", 1333578894, "21484", "{\n}", "HT335838", "2011-06-07T06:30:00", "075XX S KOSTNER AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "0833", "13", "07", "1148258", "1854069", "2011", "41.755502527482946", "-87.73224410617014", [ null, "41.755502527482946", "-87.73224410617014", null, false ] ]
+, [ 4575451, "D5450BF3-065D-4EDA-BF1C-E072E8B3C59C", 4575451, 1333578894, "21484", 1333578894, "21484", "{\n}", "HT335973", "2011-06-07T18:30:00", "055XX S LAKE SHORE DR SB", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "2132", "5", "07", "1189914", "1868809", "2011", "41.7950501674837", "-87.57911259475553", [ null, "41.7950501674837", "-87.57911259475553", null, false ] ]
+, [ 4576040, "15BD47F3-0461-4324-928A-4C4A91C3E0D3", 4576040, 1333578894, "21484", 1333578894, "21484", "{\n}", "HT336755", "2011-06-04T04:00:00", "057XX S CORNELL DR", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0331", "5", "07", "1188165", "1867490", "2011", "41.79147266391489", "-87.5855681520696", [ null, "41.79147266391489", "-87.5855681520696", null, false ] ]
+, [ 4577726, "EDA7EA1A-F842-4A9F-AC45-55CEAB239259", 4577726, 1333578895, "21484", 1333578895, "21484", "{\n}", "HT334214", "2011-06-06T18:26:00", "0000X E GRAND AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1834", "42", "07", "1176397", "1903948", "2011", "41.891788957992866", "-87.62762022380838", [ null, "41.891788957992866", "-87.62762022380838", null, false ] ]
+, [ 4579048, "89046D8B-ECDE-4D7A-813B-DD9F212E6C19", 4579048, 1333578896, "21484", 1333578896, "21484", "{\n}", "HT309728", "2011-05-23T09:00:00", "031XX N ORCHARD ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2332", "44", "07", "1171069", "1921336", "2011", "41.9396211061698", "-87.64667613234734", [ null, "41.9396211061698", "-87.64667613234734", null, false ] ]
+, [ 4579681, "A8A009D0-A329-4DCE-B734-412A62996428", 4579681, 1333578896, "21484", 1333578896, "21484", "{\n}", "HT291372", "2011-05-09T22:30:00", "007XX W ALDINE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2332", "44", "07", "1170664", "1922091", "2011", "41.94170174880759", "-87.64814243578516", [ null, "41.94170174880759", "-87.64814243578516", null, false ] ]
+, [ 4580898, "274D2BC4-C425-42A7-96F0-9E299FAD327B", 4580898, 1333578897, "21484", 1333578897, "21484", "{\n}", "HT344456", "2011-06-13T02:00:00", "038XX W DEVON AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1711", "39", "07", "1149583", "1942118", "2011", "41.99709345248874", "-87.72510156838831", [ null, "41.99709345248874", "-87.72510156838831", null, false ] ]
+, [ 4580972, "11FC4CE1-9512-414F-903B-BFE6C5FE965F", 4580972, 1333578897, "21484", 1333578897, "21484", "{\n}", "HT344579", "2011-06-12T21:00:00", "050XX N MARINE DR", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2024", "48", "07", "1169743", "1933649", "2011", "41.97343744386452", "-87.65118931544316", [ null, "41.97343744386452", "-87.65118931544316", null, false ] ]
+, [ 4581992, "90CDB61D-8CAD-4718-9DC3-360D121FD3DB", 4581992, 1333578898, "21484", 1333578898, "21484", "{\n}", "HT345840", "2011-06-13T07:30:00", "009XX W ARGYLE ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2024", "48", "07", "1169313", "1933571", "2011", "41.973232794318676", "-87.65277279607211", [ null, "41.973232794318676", "-87.65277279607211", null, false ] ]
+, [ 4582136, "54EC12E6-918C-4A05-97F4-0B10F866F187", 4582136, 1333578898, "21484", 1333578898, "21484", "{\n}", "HT346208", "2011-06-13T19:30:00", "031XX N CAMBRIDGE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2332", "44", "07", "1171986", "1921190", "2011", "41.939200271365536", "-87.64331023407708", [ null, "41.939200271365536", "-87.64331023407708", null, false ] ]
+, [ 4582390, "9626E794-ECFE-4B1C-9101-38EDB1EA6ECE", 4582390, 1333578898, "21484", 1333578898, "21484", "{\n}", "HT344767", "2011-06-07T18:00:00", "065XX S DAMEN AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "ALLEY", false, false, "0726", "15", "07", "1164111", "1861353", "2011", "41.77517219969899", "-87.67394177766718", [ null, "41.77517219969899", "-87.67394177766718", null, false ] ]
+, [ 4583884, "C3304E9F-792A-4428-AD52-2F8185F621B0", 4583884, 1333578899, "21484", 1333578899, "21484", "{\n}", "HT349031", "2011-06-02T09:00:00", "011XX W FOSTER AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "2033", "48", "07", "1167626", "1934648", "2011", "41.976224722091054", "-87.65894506527314", [ null, "41.976224722091054", "-87.65894506527314", null, false ] ]
+, [ 4584345, "9AD8DC3C-42E1-4FC5-B10F-58CD37C542DC", 4584345, 1333578899, "21484", 1333578899, "21484", "{\n}", "HT348260", "2011-06-15T00:15:00", "027XX N ARTESIAN AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1411", "1", "07", "1159516", "1918020", "2011", "41.93076787111123", "-87.68922831592187", [ null, "41.93076787111123", "-87.68922831592187", null, false ] ]
+, [ 4584423, "1D674A5C-9CC5-4B4C-B0AA-B92861208D9F", 4584423, 1333578899, "21484", 1333578899, "21484", "{\n}", "HT349698", "2011-06-15T23:00:00", "048XX S CHICAGO BEACH DR", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2132", "4", "07", "1187822", "1873221", "2011", "41.807207115089334", "-87.58664330030187", [ null, "41.807207115089334", "-87.58664330030187", null, false ] ]
+, [ 4584779, "D8EE372C-D1A3-4B68-AD6E-BFA87135E6A6", 4584779, 1333578899, "21484", 1333578899, "21484", "{\n}", "HT350416", "2011-06-16T14:00:00", "073XX S YATES BLVD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "0334", "7", "07", "1193523", "1856573", "2011", "41.76138609909077", "-87.56627886222752", [ null, "41.76138609909077", "-87.56627886222752", null, false ] ]
+, [ 4584880, "EDC0C2DB-1A76-4D49-86D3-99E5BF1B7C19", 4584880, 1333578899, "21484", 1333578899, "21484", "{\n}", "HT350263", "2011-06-15T23:00:00", "012XX S HOMAN AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1021", "24", "07", "1153927", "1894462", "2011", "41.86623587601232", "-87.7103953666458", [ null, "41.86623587601232", "-87.7103953666458", null, false ] ]
+, [ 4587081, "FFCCC5A7-8BAC-441D-802E-B7EE09E888C2", 4587081, 1333578901, "21484", 1333578901, "21484", "{\n}", "HT354247", "2011-06-18T19:00:00", "013XX N DEARBORN ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1824", "42", "07", "1175635", "1909681", "2011", "41.90753775725808", "-87.63024612492532", [ null, "41.90753775725808", "-87.63024612492532", null, false ] ]
+, [ 4587655, "0E9C9B81-9B8E-4828-8AB6-C8424AA994C8", 4587655, 1333578901, "21484", 1333578901, "21484", "{\n}", "HT354977", "2011-06-17T21:00:00", "008XX N HERMITAGE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1322", "1", "07", "1164533", "1905804", "2011", "41.897141459047646", "-87.67113854279577", [ null, "41.897141459047646", "-87.67113854279577", null, false ] ]
+, [ 4589110, "66929E17-60F3-4205-8B36-3708083B7BFA", 4589110, 1333578902, "21484", 1333578902, "21484", "{\n}", "HT357461", "2011-06-19T19:00:00", "009XX W LAKESIDE PL", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2312", "46", "07", "1169145", "1931778", "2011", "41.96831641139274", "-87.65344288999876", [ null, "41.96831641139274", "-87.65344288999876", null, false ] ]
+, [ 4593433, "A9241FBC-ED70-4B3E-9C6F-3E920C73BA3C", 4593433, 1333578904, "21484", 1333578904, "21484", "{\n}", "HT363734", "2011-06-24T13:00:00", "087XX S SAGINAW AVE", "0918", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE NO VIN", "ALLEY", false, false, "0423", "7", "07", "1195435", "1847500", "2011", "41.73644208177859", "-87.55957040306902", [ null, "41.73644208177859", "-87.55957040306902", null, false ] ]
+, [ 4594114, "6F113944-E6C6-43C4-9195-334A7E050E14", 4594114, 1333578905, "21484", 1333578905, "21484", "{\n}", "HT364729", "2011-06-24T19:00:00", "007XX S ST LOUIS AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1133", "24", "07", "1153116", "1896599", "2011", "41.872116149593545", "-87.71331597170015", [ null, "41.872116149593545", "-87.71331597170015", null, false ] ]
+, [ 4594242, "C793A4D7-EA66-4756-87CD-46EF548D579D", 4594242, 1333578905, "21484", 1333578905, "21484", "{\n}", "HT364788", "2011-06-25T06:20:00", "013XX N KINGSBURY ST", "0937", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "1822", "32", "07", "1170260", "1908985", "2011", "41.9057470912517", "-87.65001114550063", [ null, "41.9057470912517", "-87.65001114550063", null, false ] ]
+, [ 4595727, "AA1BBF08-5909-4AB8-BD3E-28E787FD8451", 4595727, 1333578906, "21484", 1333578906, "21484", "{\n}", "HT367337", "2011-06-25T02:00:00", "005XX N HERMITAGE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "1324", "26", "07", "1164685", "1904013", "2011", "41.892223600234765", "-87.67063107842009", [ null, "41.892223600234765", "-87.67063107842009", null, false ] ]
+, [ 4595831, "847FEF4E-4B8B-4202-9E69-17D63D8B146C", 4595831, 1333578906, "21484", 1333578906, "21484", "{\n}", "HT367506", "2011-05-22T20:00:00", "007XX W MAXWELL ST", "0937", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", true, false, "1232", "25", "07", "1171686", "1894036", "2011", "41.864694773884544", "-87.64521331525255", [ null, "41.864694773884544", "-87.64521331525255", null, false ] ]
+, [ 4597416, "AF8F1D7F-F4B8-419F-94E7-067CA19D18F0", 4597416, 1333578907, "21484", 1333578907, "21484", "{\n}", "HT363730", "2011-06-18T23:00:00", "014XX N KEDZIE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1422", "26", "07", "1154712", "1909736", "2011", "41.90813356605704", "-87.70710434778465", [ null, "41.90813356605704", "-87.70710434778465", null, false ] ]
+, [ 4597547, "78272B9C-B7C5-47AB-AF90-C9DA66E9277A", 4597547, 1333578907, "21484", 1333578907, "21484", "{\n}", "HT370023", "2011-06-28T11:30:00", "038XX N LINDER AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1633", "38", "07", "1138957", "1925113", "2011", "41.95063074325605", "-87.76460616550008", [ null, "41.95063074325605", "-87.76460616550008", null, false ] ]
+, [ 4597776, "A0802935-9FCB-4313-97A6-CA09F56DFF48", 4597776, 1333578907, "21484", 1333578907, "21484", "{\n}", "HT370361", "2011-06-26T18:00:00", "037XX W 65TH ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0823", "13", "07", "1152518", "1861284", "2011", "41.775218915708436", "-87.71644243560544", [ null, "41.775218915708436", "-87.71644243560544", null, false ] ]
+, [ 4599933, "447C9621-0AD7-4A3C-B20B-23438DFFEA21", 4599933, 1333578908, "21484", 1333578908, "21484", "{\n}", "HT373065", "2011-06-29T19:00:00", "101XX S AVENUE N", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "0432", "10", "07", "1201200", "1838330", "2011", "41.7111347318968", "-87.53875998051743", [ null, "41.7111347318968", "-87.53875998051743", null, false ] ]
+, [ 4600735, "18BD7704-59A7-48FA-A0D9-E6103DEFBC6B", 4600735, 1333578908, "21484", 1333578908, "21484", "{\n}", "HT371205", "2011-06-28T05:25:00", "035XX W BELDEN AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1413", "26", "07", "1152837", "1915111", "2011", "41.922920396559405", "-87.71384955383132", [ null, "41.922920396559405", "-87.71384955383132", null, false ] ]
+, [ 4600773, "75C93811-9DB0-4BF7-A7CE-D828CE6758BA", 4600773, 1333578908, "21484", 1333578908, "21484", "{\n}", "HT371206", "2011-06-28T05:25:00", "035XX W BELDEN AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1413", "26", "07", "1152837", "1915111", "2011", "41.922920396559405", "-87.71384955383132", [ null, "41.922920396559405", "-87.71384955383132", null, false ] ]
+, [ 4601830, "1984A90E-831D-4FB1-AD1C-9FA07497DC51", 4601830, 1333578909, "21484", 1333578909, "21484", "{\n}", "HT376599", "2011-07-02T01:00:00", "019XX W 59TH ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "0714", "15", "07", "1164252", "1865492", "2011", "41.78652718999564", "-87.67330842461682", [ null, "41.78652718999564", "-87.67330842461682", null, false ] ]
+, [ 4602884, "F6E5729E-A961-4DC4-8BFD-75F00C90A715", 4602884, 1333578910, "21484", 1333578910, "21484", "{\n}", "HT378071", "2011-07-03T01:30:00", "022XX N MEADE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2512", "29", "07", "1135320", "1914552", "2011", "41.92171564791335", "-87.77822710719741", [ null, "41.92171564791335", "-87.77822710719741", null, false ] ]
+, [ 4604299, "FCCAEC47-3EC8-4F0C-B67C-71854090B518", 4604299, 1333578910, "21484", 1333578910, "21484", "{\n}", "HT380362", "2011-07-04T11:00:00", "048XX W BARRY AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2521", "31", "07", "1143231", "1920125", "2011", "41.9368643100049", "-87.74902004022002", [ null, "41.9368643100049", "-87.74902004022002", null, false ] ]
+, [ 4604318, "23BB5D10-1A14-4EEC-B18A-599EEB6168C0", 4604318, 1333578910, "21484", 1333578910, "21484", "{\n}", "HT380358", "2011-07-04T13:00:00", "014XX N CLARK ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1824", "42", "07", "1175300", "1910320", "2011", "41.909298730887194", "-87.6314575110158", [ null, "41.909298730887194", "-87.6314575110158", null, false ] ]
+, [ 4605091, "4DB455D5-5FEB-49D6-A0E9-44ED31711981", 4605091, 1333578911, "21484", 1333578911, "21484", "{\n}", "HT381753", "2011-07-05T10:00:00", "035XX W FRANKLIN BLVD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENCE", false, false, "1123", "27", "07", "1152704", "1903065", "2011", "41.889867689816434", "-87.71465747312733", [ null, "41.889867689816434", "-87.71465747312733", null, false ] ]
+, [ 4605229, "C70550B1-9489-47F6-8C98-9A5F48C2425C", 4605229, 1333578911, "21484", 1333578911, "21484", "{\n}", "HT381746", "2011-07-05T17:22:00", "009XX W 59TH ST", "0937", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "0712", "16", "07", "1170950", "1865746", "2011", "41.787080474735106", "-87.6487426818737", [ null, "41.787080474735106", "-87.6487426818737", null, false ] ]
+, [ 4606117, "C4B09121-2595-48F1-A116-18E71791A7F5", 4606117, 1333578911, "21484", 1333578911, "21484", "{\n}", "HT382695", "2011-07-06T02:30:00", "013XX W ARTHINGTON ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1213", "25", "07", "1167365", "1896084", "2011", "41.870408600821065", "-87.66101673766018", [ null, "41.870408600821065", "-87.66101673766018", null, false ] ]
+, [ 4606250, "B9BFE014-FF9B-42CC-BA79-3A939C772D1B", 4606250, 1333578911, "21484", 1333578911, "21484", "{\n}", "HT383534", "2011-06-28T05:00:00", "005XX W FULTON ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1212", "42", "07", "1172530", "1902143", "2011", "41.88692232513978", "-87.64187526186225", [ null, "41.88692232513978", "-87.64187526186225", null, false ] ]
+, [ 4606832, "DFF7D8F6-E693-43AF-85A1-39AD73974675", 4606832, 1333578912, "21484", 1333578912, "21484", "{\n}", "HT382363", "2011-07-05T21:00:00", "008XX W MONTROSE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "2313", "46", "07", "1169611", "1929452", "2011", "41.961923636239554", "-87.65179747506487", [ null, "41.961923636239554", "-87.65179747506487", null, false ] ]
+, [ 4606923, "CF2EA8C3-65AA-41E4-961A-964C50DE4317", 4606923, 1333578912, "21484", 1333578912, "21484", "{\n}", "HT383025", "2011-07-06T00:30:00", "044XX N MILWAUKEE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "1623", "45", "07", "1141541", "1928927", "2011", "41.96104925510888", "-87.75501282677547", [ null, "41.96104925510888", "-87.75501282677547", null, false ] ]
+, [ 4606959, "6997B860-7BA6-48E2-BCE0-4F1B06FFFAE1", 4606959, 1333578912, "21484", 1333578912, "21484", "{\n}", "HT384402", "2011-07-05T16:00:00", "029XX W LAKE ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1331", "2", "07", "1156483", "1900944", "2011", "41.88397185765817", "-87.70083667524884", [ null, "41.88397185765817", "-87.70083667524884", null, false ] ]
+, [ 4608285, "2148D640-F9A3-4363-B265-867266D4A77B", 4608285, 1333578912, "21484", 1333578912, "21484", "{\n}", "HT386303", "2011-07-01T22:30:00", "010XX W TAYLOR ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1213", "25", "07", "1169892", "1895812", "2011", "41.869607526048846", "-87.65174727919195", [ null, "41.869607526048846", "-87.65174727919195", null, false ] ]
+, [ 4608472, "EA10F5CA-BBA8-47FB-9F46-840980D3028A", 4608472, 1333578913, "21484", 1333578913, "21484", "{\n}", "HT354986", "2011-06-10T08:00:00", "022XX N LISTER AVE", "0937", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "1432", "32", "07", "1163406", "1914951", "2011", "41.92226526414548", "-87.67501999885461", [ null, "41.92226526414548", "-87.67501999885461", null, false ] ]
+, [ 4609014, "34A64606-0EC4-47CF-9247-B9382159CDA9", 4609014, 1333578913, "21484", 1333578913, "21484", "{\n}", "HT387571", "2011-07-08T16:30:00", "004XX N CITY FRONT PLAZA DR", "0918", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE NO VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1834", "42", "07", "1177904", "1903336", "2011", "41.89007545485164", "-87.62210438873191", [ null, "41.89007545485164", "-87.62210438873191", null, false ] ]
+, [ 4610006, "5ABB7AB0-9950-4B4B-B042-01229BCB8695", 4610006, 1333578913, "21484", 1333578913, "21484", "{\n}", "HT389167", "2011-07-09T12:00:00", "065XX S DORCHESTER AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0321", "20", "07", "1186488", "1862112", "2011", "41.77675485514789", "-87.59188733279883", [ null, "41.77675485514789", "-87.59188733279883", null, false ] ]
+, [ 4610598, "59EBBFAC-98B2-45C8-A528-82FA616A5EF1", 4610598, 1333578914, "21484", 1335609388, "386464", "{\n}", "HT390319", "2011-07-10T12:00:00", "082XX S HARPER AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "0411", "8", "07", "1187875", "1850337", "2011", "41.74441026932423", "-87.58717714217588", [ null, "41.74441026932423", "-87.58717714217588", null, false ] ]
+, [ 4610881, "CF2AFB62-B7F1-4286-8241-4C50007269E3", 4610881, 1333578914, "21484", 1333578914, "21484", "{\n}", "HT390652", "2011-07-10T17:45:00", "015XX N CLARK ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1824", "42", "07", "1175277", "1910956", "2011", "41.911044460004945", "-87.6315228852188", [ null, "41.911044460004945", "-87.6315228852188", null, false ] ]
+, [ 4611044, "49342460-6E4A-4AC6-8140-3394616477E3", 4611044, 1333578914, "21484", 1333578914, "21484", "{\n}", "HT378215", "2011-07-02T23:00:00", "025XX N SPRINGFIELD AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "2524", "30", "07", "1149909", "1916754", "2011", "41.92748647435345", "-87.72456522725969", [ null, "41.92748647435345", "-87.72456522725969", null, false ] ]
+, [ 4611651, "984E077E-3F0F-40C2-A846-201AF7C1246C", 4611651, 1333578914, "21484", 1333578914, "21484", "{\n}", "HT391749", "2011-07-10T22:00:00", "042XX W WALTON ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", true, false, "1111", "37", "07", "1147810", "1905951", "2011", "41.89788260790059", "-87.73255633685237", [ null, "41.89788260790059", "-87.73255633685237", null, false ] ]
+, [ 4613496, "2BEFF151-5892-4D64-AE63-23C56754C0E3", 4613496, 1333578915, "21484", 1333578915, "21484", "{\n}", "HT394604", "2011-07-12T22:00:00", "086XX S EUCLID AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "SMALL RETAIL STORE", false, false, "0412", "8", "07", "1190648", "1847887", "2011", "41.73762080956454", "-87.57709559485461", [ null, "41.73762080956454", "-87.57709559485461", null, false ] ]
+, [ 4614013, "CC73B677-6A86-4385-9024-899CB527043A", 4614013, 1333578916, "21484", 1333578916, "21484", "{\n}", "HT395436", "2011-07-12T21:00:00", "034XX N LAKEWOOD AVE", "0928", "MOTOR VEHICLE THEFT", "ATTEMPT: CYCLE, SCOOTER, BIKE NO VIN", "STREET", false, false, "1924", "44", "07", "1167050", "1923211", "2011", "41.944853582382315", "-87.66139304166877", [ null, "41.944853582382315", "-87.66139304166877", null, false ] ]
+, [ 4614158, "EA979D97-476E-42AA-81BA-0A4A4C60D7F2", 4614158, 1333578916, "21484", 1333578916, "21484", "{\n}", "HT395593", "2011-07-13T10:00:00", "026XX N SACRAMENTO AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1411", "35", "07", "1155963", "1917469", "2011", "41.929328387099325", "-87.7022997705586", [ null, "41.929328387099325", "-87.7022997705586", null, false ] ]
+, [ 4615669, "C0E8D47C-A00C-49C4-838D-900360F40112", 4615669, 1333578917, "21484", 1333578917, "21484", "{\n}", "HT397892", "2011-07-14T23:30:00", "028XX W MC LEAN AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1414", "35", "07", "1156933", "1913499", "2011", "41.918414759405216", "-87.69884324241592", [ null, "41.918414759405216", "-87.69884324241592", null, false ] ]
+, [ 4615725, "87032FB1-3766-42EA-963B-3E35EB7F63F0", 4615725, 1333578917, "21484", 1333578917, "21484", "{\n}", "HT397989", "2011-07-14T19:00:00", "040XX W FULLERTON AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "2525", "31", "07", "1148798", "1915604", "2011", "41.92435234244623", "-87.72867753821708", [ null, "41.92435234244623", "-87.72867753821708", null, false ] ]
+, [ 4616788, "DE76C908-D446-4CB7-B526-FEBC3DBEC494", 4616788, 1333578917, "21484", 1333578917, "21484", "{\n}", "HT399479", "2011-07-14T21:00:00", "0000X E CHESTNUT ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1833", "42", "07", "1176245", "1906286", "2011", "41.89820797702481", "-87.62810786860577", [ null, "41.89820797702481", "-87.62810786860577", null, false ] ]
+, [ 4618030, "332C811B-5983-4325-97FF-5E36BB39F0B3", 4618030, 1333578918, "21484", 1333578918, "21484", "{\n}", "HT401603", "2011-07-17T10:00:00", "002XX E RANDOLPH ST", "0918", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE NO VIN", "STREET", true, false, "0124", "42", "07", "1177892", "1901182", "2011", "41.88416504268254", "-87.62221401133", [ null, "41.88416504268254", "-87.62221401133", null, false ] ]
+, [ 4618489, "FA3C4F98-9006-4D5E-BF2A-7D262EE3ED9F", 4618489, 1333578918, "21484", 1333578918, "21484", "{\n}", "HT402356", "2011-07-17T19:45:00", "007XX W GRAND AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "ALLEY", false, false, "1323", "27", "07", "1171117", "1903727", "2011", "41.891300049032544", "-87.64701761715446", [ null, "41.891300049032544", "-87.64701761715446", null, false ] ]
+, [ 4619847, "AD3917B2-40D5-444A-9018-B05B13434A96", 4619847, 1333578919, "21484", 1333578919, "21484", "{\n}", "HT404278", "2011-07-18T17:00:00", "005XX N PESHTIGO CT", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "1834", "42", "07", "1179747", "1903751", "2011", "41.89117211511765", "-87.61532339912488", [ null, "41.89117211511765", "-87.61532339912488", null, false ] ]
+, [ 4620310, "2648F9C6-C057-4898-A241-51900351697A", 4620310, 1333578919, "21484", 1333578919, "21484", "{\n}", "HT404770", "2011-07-18T00:01:00", "047XX W POLK ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "1131", "24", "07", "1144783", "1895980", "2011", "41.87057863248117", "-87.74392585856461", [ null, "41.87057863248117", "-87.74392585856461", null, false ] ]
+, [ 4620524, "C1B77A35-F8C8-4280-B060-283A6E4CC9A5", 4620524, 1333578919, "21484", 1333578919, "21484", "{\n}", "HT405016", "2011-07-18T23:30:00", "028XX S DR MARTIN LUTHER KING JR DR", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2122", "4", "07", "1179418", "1886081", "2011", "41.842692174194205", "-87.6170730833713", [ null, "41.842692174194205", "-87.6170730833713", null, false ] ]
+, [ 4620906, "3364AA5C-E34F-4402-AA82-A560EB5A7F80", 4620906, 1333578919, "21484", 1333578919, "21484", "{\n}", "HT405908", "2011-07-17T16:00:00", "003XX W OAKDALE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2333", "44", "07", "1173510", "1919932", "2011", "41.93571447620197", "-87.63774668832575", [ null, "41.93571447620197", "-87.63774668832575", null, false ] ]
+, [ 4621229, "BCB6A086-F545-4C5A-8D2B-29F4B0E3CE97", 4621229, 1333578920, "21484", 1333578920, "21484", "{\n}", "HT406207", "2011-07-19T22:00:00", "010XX S RACINE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1231", "2", "07", "1168500", "1895351", "2011", "41.86837272118265", "-87.65687101017436", [ null, "41.86837272118265", "-87.65687101017436", null, false ] ]
+, [ 4623128, "7D4D2854-9D2C-46C1-9C85-DEF28BD98A8C", 4623128, 1333578921, "21484", 1333578921, "21484", "{\n}", "HT409070", "2011-07-21T11:00:00", "041XX N KENMORE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2322", "46", "07", "1168375", "1928044", "2011", "41.958086920673544", "-87.65638259115805", [ null, "41.958086920673544", "-87.65638259115805", null, false ] ]
+, [ 4623211, "4CCAAE8B-8525-42FD-961F-DDE108F1372D", 4623211, 1333578921, "21484", 1333578921, "21484", "{\n}", "HT409445", "2011-07-21T21:30:00", "008XX N LATROBE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1524", "37", "07", "1141248", "1904893", "2011", "41.895102895020365", "-87.75668432509566", [ null, "41.895102895020365", "-87.75668432509566", null, false ] ]
+, [ 4623285, "CA7E17A4-8CA6-4645-B0AC-F2F56128A414", 4623285, 1333578921, "21484", 1333578921, "21484", "{\n}", "HT409583", "2011-07-22T00:30:00", "034XX N LAKEWOOD AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1924", "44", "07", "1167050", "1923211", "2011", "41.944853582382315", "-87.66139304166877", [ null, "41.944853582382315", "-87.66139304166877", null, false ] ]
+, [ 4624260, "82484D7A-364B-4509-A4B3-821B248523C5", 4624260, 1333578921, "21484", 1333578921, "21484", "{\n}", "HT411218", "2011-07-23T02:00:00", "035XX S ARCHER AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "0913", "11", "07", "1162396", "1880957", "2011", "41.82900392739466", "-87.67968225414815", [ null, "41.82900392739466", "-87.67968225414815", null, false ] ]
+, [ 4625653, "20CF4BFC-9B96-453D-A4BF-94F9EAD58588", 4625653, 1333578922, "21484", 1333578922, "21484", "{\n}", "HT404900", "2011-07-19T11:00:00", "010XX E 111TH ST", "0927", "MOTOR VEHICLE THEFT", "ATTEMPT: CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "0513", "9", "07", "1184881", "1831437", "2011", "41.692617174459556", "-87.59873826098746", [ null, "41.692617174459556", "-87.59873826098746", null, false ] ]
+, [ 4625694, "1F4DEDE6-8BA1-47E2-8037-3F26C361F727", 4625694, 1333578922, "21484", 1333578922, "21484", "{\n}", "HT413485", "2011-07-24T10:30:00", "023XX N SHEFFIELD AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1812", "43", "07", "1169277", "1915735", "2011", "41.92429089682067", "-87.65342546143958", [ null, "41.92429089682067", "-87.65342546143958", null, false ] ]
+, [ 4625836, "86BB2E18-821B-4E69-B779-BD5741DACA07", 4625836, 1333578922, "21484", 1333578922, "21484", "{\n}", "HT413619", "2011-07-22T21:00:00", "059XX W THOMAS ST", "0937", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1511", "29", "07", "1136279", "1906750", "2011", "41.90028893190841", "-87.77489007021234", [ null, "41.90028893190841", "-87.77489007021234", null, false ] ]
+, [ 4628575, "C217C35F-2CD1-4BCC-AC55-98CC5BEB8614", 4628575, 1333578924, "21484", 1333578924, "21484", "{\n}", "HT416930", "2011-07-26T09:00:00", "025XX N ARTESIAN AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1431", "35", "07", "1159557", "1916854", "2011", "41.92756744197607", "-87.68910984371311", [ null, "41.92756744197607", "-87.68910984371311", null, false ] ]
+, [ 4628723, "E6B4A32B-88DD-4502-8BF3-BF07698914B9", 4628723, 1333578924, "21484", 1333578924, "21484", "{\n}", "HT417733", "2011-07-27T08:00:00", "045XX W JACKSON BLVD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "1131", "24", "07", "1146271", "1898264", "2011", "41.87681803703572", "-87.7384047312114", [ null, "41.87681803703572", "-87.7384047312114", null, false ] ]
+, [ 4629638, "E9C29A8F-3581-4131-9F23-174CB57BB98E", 4629638, 1333578924, "21484", 1333578924, "21484", "{\n}", "HT419406", "2011-07-27T22:00:00", "004XX W BRIAR PL", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2332", "44", "07", "1172953", "1921076", "2011", "41.93886603743306", "-87.6397596692059", [ null, "41.93886603743306", "-87.6397596692059", null, false ] ]
+, [ 4629667, "7CACE3FA-51D3-4F06-96AB-DCDAB8D7D6D9", 4629667, 1333578924, "21484", 1333578924, "21484", "{\n}", "HT419450", "2011-07-27T19:00:00", "001XX W EUGENIE ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1814", "43", "07", "1174435", "1911580", "2011", "41.912775608395926", "-87.63459739543626", [ null, "41.912775608395926", "-87.63459739543626", null, false ] ]
+, [ 4630239, "BA027B6F-401D-47BC-9E8A-F55D95637BC0", 4630239, 1333578925, "21484", 1333578925, "21484", "{\n}", "HT419967", "2011-07-27T23:00:00", "042XX N ASHLAND AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1922", "47", "07", "1164858", "1928086", "2011", "41.958277681106544", "-87.66931108807869", [ null, "41.958277681106544", "-87.66931108807869", null, false ] ]
+, [ 4630904, "D727E87A-B96A-4BA5-A104-92E1989E42C1", 4630904, 1333578925, "21484", 1333578925, "21484", "{\n}", "HT419064", "2011-07-27T16:00:00", "024XX N NEW ENGLAND AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2512", "36", "07", "1130045", "1915776", "2011", "41.925166521762115", "-87.79758114626873", [ null, "41.925166521762115", "-87.79758114626873", null, false ] ]
+, [ 4631226, "7EA51E3D-0913-4DEC-AFE0-881D17B0E1F3", 4631226, 1333578925, "21484", 1333578925, "21484", "{\n}", "HT411812", "2011-07-22T23:20:00", "015XX N MAYFIELD AVE", "0937", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN", "SIDEWALK", false, false, "2531", "29", "07", "1136702", "1909435", "2011", "41.90764933586598", "-87.77327196140634", [ null, "41.90764933586598", "-87.77327196140634", null, false ] ]
+, [ 4632521, "2ED0B65A-483C-4C8C-9B19-4B0509208A70", 4632521, 1333578926, "21484", 1333578926, "21484", "{\n}", "HT423587", "2011-07-26T10:00:00", "0000X E ONTARIO ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1834", "42", "07", "1176377", "1904531", "2011", "41.89338919125952", "-87.6276760651803", [ null, "41.89338919125952", "-87.6276760651803", null, false ] ]
+, [ 4632920, "F77C291A-4063-449B-B8DD-6D12974FC2AA", 4632920, 1333578926, "21484", 1333578926, "21484", "{\n}", "HT424587", "2011-07-20T08:00:00", "067XX S KOMENSKY AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "0833", "13", "07", "1150569", "1859633", "2011", "41.77072644790083", "-87.72363022137016", [ null, "41.77072644790083", "-87.72363022137016", null, false ] ]
+, [ 4633569, "BEEC87B7-4FE9-4C4A-88BD-7FAD4FB6F75C", 4633569, 1333578927, "21484", 1333578927, "21484", "{\n}", "HT425607", "2011-08-01T00:01:00", "038XX N HARLEM AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1631", "38", "07", "1127336", "1924914", "2011", "41.95028832620689", "-87.80732946191962", [ null, "41.95028832620689", "-87.80732946191962", null, false ] ]
+, [ 4633909, "DF954CE7-A140-4E30-B938-E773B7510599", 4633909, 1333578927, "21484", 1333578927, "21484", "{\n}", "HT425817", "2011-07-31T17:00:00", "017XX N HONORE ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1434", "32", "07", "1163708", "1911529", "2011", "41.91286870382119", "-87.67400702736815", [ null, "41.91286870382119", "-87.67400702736815", null, false ] ]
+, [ 4633994, "5382E3AF-8B85-47AE-BEF6-24D5C5034814", 4633994, 1333578927, "21484", 1333578927, "21484", "{\n}", "HT426268", "2011-05-27T19:00:00", "009XX W OAKDALE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1932", "44", "07", "1169169", "1919729", "2011", "41.93525297604617", "-87.65370596856226", [ null, "41.93525297604617", "-87.65370596856226", null, false ] ]
+, [ 4634266, "58A66B76-7CD1-45A2-908F-ECBC02B46FB8", 4634266, 1333578927, "21484", 1333578927, "21484", "{\n}", "HT426422", "2011-08-01T09:00:00", "052XX S HYDE PARK BLVD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "SIDEWALK", true, false, "2132", "4", "07", "1188493", "1870554", "2011", "41.79987266355381", "-87.58426756234583", [ null, "41.79987266355381", "-87.58426756234583", null, false ] ]
+, [ 4634378, "FB64FDD5-EAAB-41DC-8FD6-15D2B3C45830", 4634378, 1333578927, "21484", 1333578927, "21484", "{\n}", "HT427000", "2011-07-31T10:00:00", "001XX W MAPLE ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "1824", "42", "07", "1175195", "1907559", "2011", "41.90172477258182", "-87.63192616392318", [ null, "41.90172477258182", "-87.63192616392318", null, false ] ]
+, [ 4635678, "A66A65AA-50D6-41DC-8CC8-E3774FAE4F7F", 4635678, 1333578928, "21484", 1333578928, "21484", "{\n}", "HT427920", "2011-07-31T19:00:00", "009XX W GUNNISON ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2024", "48", "07", "1169337", "1932454", "2011", "41.97016719196545", "-87.65271717519133", [ null, "41.97016719196545", "-87.65271717519133", null, false ] ]
+, [ 4635812, "B5E9080D-4DBA-4643-9FE4-C71CB122037C", 4635812, 1333578928, "21484", 1333578928, "21484", "{\n}", "HT428501", "2011-08-02T06:00:00", "058XX S COTTAGE GROVE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0234", "20", "07", "1182530", "1866569", "2011", "41.78907799649159", "-87.60625887560307", [ null, "41.78907799649159", "-87.60625887560307", null, false ] ]
+, [ 4635994, "B6252752-FAA6-4FB4-B086-0E0BCC28917D", 4635994, 1333578928, "21484", 1333578928, "21484", "{\n}", "HT429157", "2011-08-03T00:35:00", "023XX E 70TH ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0331", "5", "07", "1193337", "1859048", "2011", "41.76818223419632", "-87.56687972652396", [ null, "41.76818223419632", "-87.56687972652396", null, false ] ]
+, [ 4636794, "0C2FDD68-2A26-47DA-9961-197975E53E43", 4636794, 1333578928, "21484", 1333578928, "21484", "{\n}", "HT430483", "2011-08-03T09:30:00", "005XX W TILDEN ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0131", "2", "07", "1172760", "1898140", "2011", "41.87593274624751", "-87.64114920916268", [ null, "41.87593274624751", "-87.64114920916268", null, false ] ]
+, [ 4638277, "7DFF5CD4-E640-47B9-93EF-A0863CB15180", 4638277, 1333578929, "21484", 1333578929, "21484", "{\n}", "HT432761", "2011-08-04T22:00:00", "0000X N GREEN ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1212", "27", "07", "1170771", "1900298", "2011", "41.881898233303836", "-87.6483888171778", [ null, "41.881898233303836", "-87.6483888171778", null, false ] ]
+, [ 4638452, "2F9F4A45-82C1-424E-B940-17093CD5B2D5", 4638452, 1333578929, "21484", 1333578929, "21484", "{\n}", "HT432852", "2011-08-04T18:00:00", "005XX W SURF ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2333", "44", "07", "1172205", "1919440", "2011", "41.93439336347252", "-87.64255718152454", [ null, "41.93439336347252", "-87.64255718152454", null, false ] ]
+, [ 4638618, "534F2AFA-6ABF-4ECF-ACF6-61E62A2B5CEC", 4638618, 1333578929, "21484", 1333578929, "21484", "{\n}", "HT433329", "2011-08-04T23:00:00", "050XX W FULLERTON AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "2521", "31", "07", "1142594", "1915535", "2011", "41.92428078200035", "-87.75147561042573", [ null, "41.92428078200035", "-87.75147561042573", null, false ] ]
+, [ 4639129, "814ED5E8-99C7-42F1-AF84-2BCC51AD0EA1", 4639129, 1333578930, "21484", 1333578930, "21484", "{\n}", "HT432500", "2011-08-04T22:00:00", "018XX N WOOD ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1433", "32", "07", "1164102", "1912280", "2011", "41.914921177618595", "-87.67253831264566", [ null, "41.914921177618595", "-87.67253831264566", null, false ] ]
+, [ 4639434, "5E01B136-B985-425F-AA4E-F3A1B7875D69", 4639434, 1333578930, "21484", 1333578930, "21484", "{\n}", "HT434649", "2011-08-04T10:00:00", "041XX N MARINE DR", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2323", "46", "07", "1171270", "1927275", "2011", "41.95591351221893", "-87.64576230287375", [ null, "41.95591351221893", "-87.64576230287375", null, false ] ]
+, [ 4639498, "111E77CC-7170-445C-BA36-E4AFAD18EFB0", 4639498, 1333578930, "21484", 1333578930, "21484", "{\n}", "HT434821", "2011-08-06T02:00:00", "020XX N WESTERN AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1432", "32", "07", "1160083", "1913331", "2011", "41.917889220552574", "-87.68727453423831", [ null, "41.917889220552574", "-87.68727453423831", null, false ] ]
+, [ 4639603, "03916813-A29D-4FCE-8979-23BE1A6F9108", 4639603, 1333578930, "21484", 1333578930, "21484", "{\n}", "HT432097", "2011-08-03T07:00:00", "021XX N HOYNE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1432", "32", "07", "1161959", "1914411", "2011", "41.92081382698277", "-87.68035181107614", [ null, "41.92081382698277", "-87.68035181107614", null, false ] ]
+, [ 4639952, "9B1EB18E-E7F1-420F-BB25-4C9A461DCCB7", 4639952, 1333578930, "21484", 1333578930, "21484", "{\n}", "HT435467", "2011-08-06T17:35:00", "0000X E MADISON ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0123", "42", "07", "1176651", "1900370", "2011", "41.881964998265104", "-87.62679559870746", [ null, "41.881964998265104", "-87.62679559870746", null, false ] ]
+, [ 4640602, "16DA02AE-285F-4BF3-B0D6-4A451B83B729", 4640602, 1333578931, "21484", 1333578931, "21484", "{\n}", "HT436446", "2011-08-05T13:00:00", "029XX W WASHINGTON BLVD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "1331", "2", "07", "1156697", "1900579", "2011", "41.88296593172428", "-87.70006073323275", [ null, "41.88296593172428", "-87.70006073323275", null, false ] ]
+, [ 4641764, "1DB739C7-6D93-4E97-8365-436BCD02CBAB", 4641764, 1333578931, "21484", 1333578931, "21484", "{\n}", "HT438386", "2011-08-08T15:30:00", "032XX W POLK ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "1134", "24", "07", "1154762", "1896225", "2011", "41.871057069243484", "-87.70728279203433", [ null, "41.871057069243484", "-87.70728279203433", null, false ] ]
+, [ 4641792, "E09FB882-B149-47CE-805E-4DEA55F30DBC", 4641792, 1333578931, "21484", 1333578931, "21484", "{\n}", "HT426813", "2011-07-30T10:00:00", "028XX N PINE GROVE AVE", "0918", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE NO VIN", "STREET", false, false, "2333", "44", "07", "1172497", "1918938", "2011", "41.933009394495", "-87.64149897958556", [ null, "41.933009394495", "-87.64149897958556", null, false ] ]
+, [ 4641797, "8C75E393-4E92-4285-830C-49E007334096", 4641797, 1333578931, "21484", 1333578931, "21484", "{\n}", "HT438276", "2011-08-08T15:10:00", "015XX N KEDVALE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "2534", "30", "07", "1148397", "1909804", "2011", "41.908444334936824", "-87.73030084405364", [ null, "41.908444334936824", "-87.73030084405364", null, false ] ]
+, [ 4641869, "93480E13-CA38-47F5-BC8F-6EA80B27E66A", 4641869, 1333578931, "21484", 1333578931, "21484", "{\n}", "HT397503", "2011-07-14T19:30:00", "059XX S HONORE ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "SIDEWALK", false, false, "0714", "15", "07", "1164990", "1865483", "2011", "41.786486914769625", "-87.6706027810774", [ null, "41.786486914769625", "-87.6706027810774", null, false ] ]
+, [ 4641880, "7A615922-01F4-447C-BB1C-D3024A2A8FEB", 4641880, 1333578931, "21484", 1333578931, "21484", "{\n}", "HT438045", "2011-08-08T10:30:00", "034XX W IRVING PARK RD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1723", "35", "07", "1152395", "1926409", "2011", "41.953931739187176", "-87.71517427658064", [ null, "41.953931739187176", "-87.71517427658064", null, false ] ]
+, [ 4642238, "84A47D75-9541-46A6-939F-049FF63A90BB", 4642238, 1333578931, "21484", 1333578931, "21484", "{\n}", "HT434056", "2011-08-04T20:00:00", "007XX N GREEN ST", "0937", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1323", "27", "07", "1170553", "1905117", "2011", "41.89512665764814", "-87.6490481932325", [ null, "41.89512665764814", "-87.6490481932325", null, false ] ]
+, [ 4642743, "098E6208-62A6-4DFD-9C2A-12B499568720", 4642743, 1333578932, "21484", 1333578932, "21484", "{\n}", "HT439803", "2011-08-07T20:00:00", "021XX N MAGNOLIA AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1811", "32", "07", "1167674", "1914166", "2011", "41.92002020042916", "-87.65936082728146", [ null, "41.92002020042916", "-87.65936082728146", null, false ] ]
+, [ 4645576, "6DE22F71-9463-4129-A5BE-1535D91490A2", 4645576, 1333578933, "21484", 1333578933, "21484", "{\n}", "HT444033", "2011-08-11T22:00:00", "006XX W WAVELAND AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2323", "46", "07", "1171236", "1925158", "2011", "41.95010514293495", "-87.64594971500999", [ null, "41.95010514293495", "-87.64594971500999", null, false ] ]
+, [ 4645998, "B606EEEA-5882-4B47-9E92-888699CB2FD2", 4645998, 1333578933, "21484", 1333578933, "21484", "{\n}", "HT444672", "2011-08-12T13:00:00", "052XX W HARRISON ST", "0918", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE NO VIN", "STREET", false, false, "1522", "29", "07", "1141793", "1896862", "2011", "41.87305476837512", "-87.75488147367757", [ null, "41.87305476837512", "-87.75488147367757", null, false ] ]
+, [ 4646121, "9373E514-4B06-44DD-8ED3-EF565A1A1B0E", 4646121, 1333578934, "21484", 1333578934, "21484", "{\n}", "HT444927", "2011-08-12T17:00:00", "023XX W 49TH ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0915", "12", "07", "1161799", "1872179", "2011", "41.80492849988018", "-87.6821166984368", [ null, "41.80492849988018", "-87.6821166984368", null, false ] ]
+, [ 4646530, "3C273C7B-D585-41E9-AFA7-76FA73A6C5C4", 4646530, 1333578934, "21484", 1333578934, "21484", "{\n}", "HT445350", "2011-08-12T18:00:00", "054XX S NATCHEZ AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0811", "23", "07", "1134010", "1867765", "2011", "41.79334826742665", "-87.78414006684226", [ null, "41.79334826742665", "-87.78414006684226", null, false ] ]
+, [ 4647652, "96E04738-6862-42A7-B714-7DEE330DE4DA", 4647652, 1333578935, "21484", 1333578935, "21484", "{\n}", "HT446556", "2011-08-10T12:00:00", "045XX W CERMAK RD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "COMMERCIAL / BUSINESS OFFICE", false, false, "1012", "24", "07", "1146298", "1889027", "2011", "41.851470038461436", "-87.73854057132783", [ null, "41.851470038461436", "-87.73854057132783", null, false ] ]
+, [ 4648103, "718DC230-C2A4-439A-822F-3AC955B98727", 4648103, 1333578935, "21484", 1333578935, "21484", "{\n}", "HT447689", "2011-08-13T16:00:00", "013XX N HAMLIN AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2535", "26", "07", "1150828", "1908983", "2011", "41.90614418652865", "-87.72139199972717", [ null, "41.90614418652865", "-87.72139199972717", null, false ] ]
+, [ 4648216, "F4FF844B-F36B-48A8-83CD-8E0FDD7FC89C", 4648216, 1333578935, "21484", 1333578935, "21484", "{\n}", "HT448086", "2011-08-14T14:30:00", "020XX N SEDGWICK ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "1814", "43", "07", "1173306", "1913714", "2011", "41.918656568124646", "-87.63868152498267", [ null, "41.918656568124646", "-87.63868152498267", null, false ] ]
+, [ 4649222, "F98D0A04-4C18-459B-8200-B716C794DDA4", 4649222, 1333578936, "21484", 1333578936, "21484", "{\n}", "HT449776", "2011-08-15T16:00:00", "002XX E ILLINOIS ST", "0927", "MOTOR VEHICLE THEFT", "ATTEMPT: CYCLE, SCOOTER, BIKE W-VIN", "SIDEWALK", false, false, "1834", "42", "07", "1177920", "1903702", "2011", "41.89107941281795", "-87.6220344880242", [ null, "41.89107941281795", "-87.6220344880242", null, false ] ]
+, [ 4649419, "22598E47-1EF2-475F-87DD-71FC804B421C", 4649419, 1333578936, "21484", 1333578936, "21484", "{\n}", "HT450023", "2011-08-15T19:00:00", "001XX W EUGENIE ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1814", "43", "07", "1174502", "1911582", "2011", "41.91277959842351", "-87.63435119656178", [ null, "41.91277959842351", "-87.63435119656178", null, false ] ]
+, [ 4649682, "BFBB41B0-171A-4861-9D1A-BBB409B0B9FD", 4649682, 1333578936, "21484", 1333578936, "21484", "{\n}", "HT450321", "2011-08-15T21:30:00", "077XX S CARPENTER ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0612", "17", "07", "1170691", "1853620", "2011", "41.75381089734763", "-87.6500455378866", [ null, "41.75381089734763", "-87.6500455378866", null, false ] ]
+, [ 4650976, "1A0F391E-D5D8-4C69-AEC5-66849EA7C911", 4650976, 1333578937, "21484", 1333578937, "21484", "{\n}", "HT451909", "2011-08-17T00:30:00", "076XX W ADDISON ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1631", "36", "07", "1124687", "1923087", "2011", "41.94531901523415", "-87.81710761538274", [ null, "41.94531901523415", "-87.81710761538274", null, false ] ]
+, [ 4651393, "BE58067E-9776-466F-875C-0704829D916B", 4651393, 1333578937, "21484", 1333578937, "21484", "{\n}", "HT452931", "2011-08-17T03:00:00", "031XX N NASHVILLE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "2511", "36", "07", "1131922", "1920083", "2011", "41.93695304987947", "-87.79058385659049", [ null, "41.93695304987947", "-87.79058385659049", null, false ] ]
+, [ 4651792, "B653A2D3-39D5-4BAF-A39E-8AC381452F8D", 4651792, 1333578937, "21484", 1333578937, "21484", "{\n}", "HT453502", "2011-08-18T00:30:00", "014XX E 55TH PL", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "2131", "5", "07", "1186525", "1868722", "2011", "41.79489235264129", "-87.5915426358702", [ null, "41.79489235264129", "-87.5915426358702", null, false ] ]
+, [ 4651837, "5B57D81F-724F-41D7-A644-2D5AE7C03324", 4651837, 1333578937, "21484", 1333578937, "21484", "{\n}", "HT453586", "2011-08-17T22:00:00", "024XX E 93RD ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0423", "7", "07", "1194261", "1843819", "2011", "41.72636997313443", "-87.56399200024788", [ null, "41.72636997313443", "-87.56399200024788", null, false ] ]
+, [ 4651857, "487F7092-404F-4252-A6BF-D54184C34ECA", 4651857, 1333578937, "21484", 1333578937, "21484", "{\n}", "HT453584", "2011-08-18T00:15:00", "052XX N OSCEOLA AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "DRIVEWAY - RESIDENTIAL", false, false, "1613", "41", "07", "1125641", "1934079", "2011", "41.9754664980155", "-87.81335582017313", [ null, "41.9754664980155", "-87.81335582017313", null, false ] ]
+, [ 4652156, "014B10E2-773D-438F-8BF2-ADA6507B7C74", 4652156, 1333578937, "21484", 1333578937, "21484", "{\n}", "HT453166", "2011-08-12T15:00:00", "055XX S ELLIS AVE", "0918", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE NO VIN", "STREET", false, false, "2133", "5", "07", "1183805", "1868682", "2011", "41.794846562397616", "-87.6015179838154", [ null, "41.794846562397616", "-87.6015179838154", null, false ] ]
+, [ 4652681, "B550BED2-117C-4373-9021-21A40A68664D", 4652681, 1333578938, "21484", 1333578938, "21484", "{\n}", "HT454913", "2011-08-18T18:00:00", "007XX N LA SALLE DR", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1832", "42", "07", "1174965", "1905300", "2011", "41.89553111759151", "-87.63283872224831", [ null, "41.89553111759151", "-87.63283872224831", null, false ] ]
+, [ 4652864, "3581F2FA-F97E-437B-B2AB-942AEC6182C5", 4652864, 1333578938, "21484", 1333578938, "21484", "{\n}", "HT455140", "2011-08-18T22:00:00", "077XX S PHILLIPS AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0421", "7", "07", "1193838", "1853899", "2011", "41.75404072263652", "-87.56521188838984", [ null, "41.75404072263652", "-87.56521188838984", null, false ] ]
+, [ 4653403, "1AB88F11-33EF-4733-9059-E0CE5DDE2B76", 4653403, 1333578938, "21484", 1333578938, "21484", "{\n}", "HT455993", "2011-08-16T12:00:00", "077XX S KINGSTON AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", true, false, "0421", "7", "07", "1194497", "1854007", "2011", "41.754320912305396", "-87.56279337723122", [ null, "41.754320912305396", "-87.56279337723122", null, false ] ]
+, [ 4653859, "0519A4E7-DFA2-45C3-A385-77D97797CCD3", 4653859, 1333578938, "21484", 1333578938, "21484", "{\n}", "HT456512", "2011-08-19T11:45:00", "063XX N NAGLE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1611", "41", "07", "1132586", "1941490", "2011", "41.99568443458643", "-87.78764244173426", [ null, "41.99568443458643", "-87.78764244173426", null, false ] ]
+, [ 4653888, "F7772224-590E-456E-8F01-0CB45C18C82B", 4653888, 1333578938, "21484", 1333578938, "21484", "{\n}", "HT456697", "2011-08-20T02:00:00", "045XX S OAKENWALD AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "2123", "4", "07", "1185661", "1875208", "2011", "41.81271083028943", "-87.59450642931608", [ null, "41.81271083028943", "-87.59450642931608", null, false ] ]
+, [ 4654052, "34495FFB-D8A1-4C75-A16D-D70C9332AD30", 4654052, 1333578939, "21484", 1333578939, "21484", "{\n}", "HT456979", "2011-08-19T10:00:00", "114XX S FOREST AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0531", "9", "07", "1180244", "1829262", "2011", "41.686755930772655", "-87.61578131536712", [ null, "41.686755930772655", "-87.61578131536712", null, false ] ]
+, [ 4654943, "883EF3E6-507D-428C-AA12-176DD462A5EF", 4654943, 1333578939, "21484", 1333578939, "21484", "{\n}", "HT439991", "2011-08-19T06:00:00", "073XX N ROGERS AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2424", "49", "07", "1162222", "1948614", "2011", "42.014662879330956", "-87.67842488960171", [ null, "42.014662879330956", "-87.67842488960171", null, false ] ]
+, [ 4655253, "0A58C83A-0B5B-4863-9A66-EBB0324EFC61", 4655253, 1333578939, "21484", 1335609359, "386464", "{\n}", "HT458990", "2011-08-21T10:30:00", "023XX N LINCOLN PARK WEST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "1814", "43", "07", "1173834", "1915794", "2011", "41.924352424724866", "-87.63667954030166", [ null, "41.924352424724866", "-87.63667954030166", null, false ] ]
+, [ 4655298, "C2862FF0-FDB5-48AC-B9F9-AF9E0815F626", 4655298, 1333578939, "21484", 1333578939, "21484", "{\n}", "HT459005", "2011-08-21T12:00:00", "006XX W 18TH ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1233", "25", "07", "1172524", "1891503", "2011", "41.8577255592026", "-87.64221189578898", [ null, "41.8577255592026", "-87.64221189578898", null, false ] ]
+, [ 4655975, "FE3E245C-7BE5-4F20-8694-2C777AA3E203", 4655975, 1333578940, "21484", 1333578940, "21484", "{\n}", "HT458754", "2011-08-21T13:00:00", "025XX W MEDILL AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "ALLEY", false, false, "1431", "1", "07", "1159323", "1915610", "2011", "41.92415863941238", "-87.69000399786384", [ null, "41.92415863941238", "-87.69000399786384", null, false ] ]
+, [ 4656671, "D8B86A08-4F76-40D0-8EFC-AEF329539398", 4656671, 1333578940, "21484", 1333578940, "21484", "{\n}", "HT461095", "2011-08-21T12:30:00", "001XX N SANGAMON ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1212", "27", "07", "1170115", "1900972", "2011", "41.88376207785032", "-87.65077793836177", [ null, "41.88376207785032", "-87.65077793836177", null, false ] ]
+, [ 4658495, "0D98FF78-1D02-4B2E-A33F-5E347EB6FAB9", 4658495, 1333578941, "21484", 1333578941, "21484", "{\n}", "HT463841", "2011-08-24T13:00:00", "038XX N BERNARD ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1732", "35", "07", "1152757", "1925116", "2011", "41.95037648316277", "-87.71387787068551", [ null, "41.95037648316277", "-87.71387787068551", null, false ] ]
+, [ 4659666, "FEE608B8-B75E-40C3-B8BE-C670FF259869", 4659666, 1333578942, "21484", 1333578942, "21484", "{\n}", "HT465161", "2011-08-25T10:00:00", "024XX W LELAND AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1911", "47", "07", "1159468", "1931183", "2011", "41.96688891056672", "-87.68904108748434", [ null, "41.96688891056672", "-87.68904108748434", null, false ] ]
+, [ 4660097, "7D324BB0-EE6B-44D7-B07F-8C1C09EFE0CB", 4660097, 1333578942, "21484", 1333578942, "21484", "{\n}", "HT465852", "2011-08-15T08:00:00", "033XX W SCHUBERT AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1412", "35", "07", "1153455", "1917795", "2011", "41.9302732381556", "-87.71150728332184", [ null, "41.9302732381556", "-87.71150728332184", null, false ] ]
+, [ 4660302, "3E4C5291-1E5F-45AD-B44B-7AB9336A79F5", 4660302, 1333578942, "21484", 1333578942, "21484", "{\n}", "HT465417", "2011-08-25T16:30:00", "004XX N STATE ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1834", "42", "07", "1176340", "1903042", "2011", "41.88930413280852", "-87.62785691329265", [ null, "41.88930413280852", "-87.62785691329265", null, false ] ]
+, [ 4660382, "46EFAAFD-FF6E-4D4D-A022-60FC90D8A120", 4660382, 1333578942, "21484", 1333578942, "21484", "{\n}", "HT466576", "2011-08-25T20:00:00", "010XX W BYRON ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2324", "44", "07", "1168479", "1926104", "2011", "41.95276123270997", "-87.65605661821876", [ null, "41.95276123270997", "-87.65605661821876", null, false ] ]
+, [ 4661443, "AD9DC1AA-2CB2-4B94-A7B8-D6802CC7CD4B", 4661443, 1333578943, "21484", 1333578943, "21484", "{\n}", "HT464916", "2011-08-11T12:00:00", "001XX W 123RD ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "SIDEWALK", false, false, "0523", "9", "07", "1177608", "1823349", "2011", "41.67058960290684", "-87.6256090431197", [ null, "41.67058960290684", "-87.6256090431197", null, false ] ]
+, [ 4661467, "2850FCB2-DECB-41E8-BB85-3F3817F95400", 4661467, 1333578943, "21484", 1333578943, "21484", "{\n}", "HT468182", "2011-08-27T01:00:00", "003XX S LEAVITT ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1211", "2", "07", "1161833", "1898246", "2011", "41.87645842596093", "-87.68126618585836", [ null, "41.87645842596093", "-87.68126618585836", null, false ] ]
+, [ 4663035, "F1728D10-55D0-4931-805B-9613024A7429", 4663035, 1333578944, "21484", 1333578944, "21484", "{\n}", "HT468891", "2011-08-24T00:01:00", "064XX S DREXEL AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0314", "20", "07", "1183545", "1862283", "2011", "41.77729321780476", "-87.60267079637616", [ null, "41.77729321780476", "-87.60267079637616", null, false ] ]
+, [ 4663406, "5319483E-CB29-42B0-97E4-93369DBCAF34", 4663406, 1333578944, "21484", 1333578944, "21484", "{\n}", "HT471071", "2011-08-28T18:00:00", "013XX N WELLS ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1821", "43", "07", "1174413", "1909539", "2011", "41.90717550007667", "-87.6347392867061", [ null, "41.90717550007667", "-87.6347392867061", null, false ] ]
+, [ 4665460, "2986BCCE-0E12-4E80-A2FF-82BF4B2331DB", 4665460, 1333578945, "21484", 1333578945, "21484", "{\n}", "HT474079", "2011-08-31T05:55:00", "043XX N ALBANY AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "DRIVEWAY - RESIDENTIAL", false, true, "1724", "33", "07", "1154888", "1928973", "2011", "41.96091780928642", "-87.70594066758589", [ null, "41.96091780928642", "-87.70594066758589", null, false ] ]
+, [ 4666141, "F06B7CF5-69A7-413C-91AB-57B8C31B17FC", 4666141, 1333578946, "21484", 1333578946, "21484", "{\n}", "HT475242", "2011-08-19T01:15:00", "063XX W HERMIONE ST", "0937", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1611", "45", "07", "1132935", "1941127", "2011", "41.99468222154882", "-87.78636714407122", [ null, "41.99468222154882", "-87.78636714407122", null, false ] ]
+, [ 4666192, "A2A4762F-B958-4463-97B2-58289BFD441A", 4666192, 1333578946, "21484", 1333578946, "21484", "{\n}", "HT473414", "2011-08-02T13:00:00", "045XX W CERMAK RD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "WAREHOUSE", false, false, "1012", "24", "07", "1146298", "1889027", "2011", "41.851470038461436", "-87.73854057132783", [ null, "41.851470038461436", "-87.73854057132783", null, false ] ]
+, [ 4667219, "BCC762F9-395F-4EBE-B779-42C0EA5E487F", 4667219, 1333578946, "21484", 1333578946, "21484", "{\n}", "HT476591", "2011-08-31T18:30:00", "057XX N KENMORE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2022", "48", "07", "1168170", "1938247", "2011", "41.98608870141895", "-87.65684004329016", [ null, "41.98608870141895", "-87.65684004329016", null, false ] ]
+, [ 4667328, "1EB46A9F-B684-44A5-8CEF-6B615C1E3C49", 4667328, 1333578946, "21484", 1333578946, "21484", "{\n}", "HT476824", "2011-09-01T18:30:00", "037XX W 58TH PL", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "0822", "14", "07", "1152457", "1865517", "2011", "41.78683612024247", "-87.71655475148332", [ null, "41.78683612024247", "-87.71655475148332", null, false ] ]
+, [ 4667718, "A266FA35-6E84-407D-9FB5-AEAD28FF06E5", 4667718, 1333578947, "21484", 1333578947, "21484", "{\n}", "HT477535", "2011-09-02T00:01:00", "086XX W FOSTER AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "1614", "41", "07", "1117574", "1933368", "2011", "41.97364596270411", "-87.84303678676405", [ null, "41.97364596270411", "-87.84303678676405", null, false ] ]
+, [ 4668390, "5DB579DD-87F3-4FB4-8C98-840D64C9A6AE", 4668390, 1333578947, "21484", 1333578947, "21484", "{\n}", "HT421729", "2011-07-28T16:30:00", "045XX N BEACON ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2311", "46", "07", "1166313", "1930061", "2011", "41.963666096237915", "-87.6639052713961", [ null, "41.963666096237915", "-87.6639052713961", null, false ] ]
+, [ 4670111, "78C7B423-04A8-4154-ABE5-E1F49081D766", 4670111, 1333578948, "21484", 1333578948, "21484", "{\n}", "HT481337", "2011-09-03T16:00:00", "011XX W LUNT AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "ALLEY", false, false, "2423", "49", "07", "1166913", "1946698", "2011", "42.00930556831546", "-87.66121924850286", [ null, "42.00930556831546", "-87.66121924850286", null, false ] ]
+, [ 4672472, "634FEF30-24F7-44A2-91B0-447F3CC12E3F", 4672472, 1333578949, "21484", 1333578949, "21484", "{\n}", "HT484986", "2011-09-06T17:00:00", "045XX S WOODLAWN AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2123", "4", "07", "1185057", "1874869", "2011", "41.811794818512475", "-87.59673253667077", [ null, "41.811794818512475", "-87.59673253667077", null, false ] ]
+, [ 4673526, "42342A8A-CEE0-48FC-986D-3005D808232F", 4673526, 1333578950, "21484", 1333578950, "21484", "{\n}", "HT486559", "2011-09-07T19:00:00", "032XX N TROY ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1733", "33", "07", "1154763", "1921604", "2011", "41.94069928742732", "-87.70659835157386", [ null, "41.94069928742732", "-87.70659835157386", null, false ] ]
+, [ 4673938, "F3C2ECFE-12BA-409B-9089-60CD7D11542C", 4673938, 1333578950, "21484", 1333578950, "21484", "{\n}", "HT486096", "2011-08-31T19:00:00", "031XX N HONORE ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1931", "32", "07", "1163516", "1921161", "2011", "41.9393035572233", "-87.67444047749386", [ null, "41.9393035572233", "-87.67444047749386", null, false ] ]
+, [ 4674693, "4EB6AD05-4709-4B2F-829F-A5B132969120", 4674693, 1333578951, "21484", 1333578951, "21484", "{\n}", "HT488631", "2011-09-08T22:00:00", "052XX N KENMORE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "DRIVEWAY - RESIDENTIAL", false, false, "2023", "48", "07", "1168339", "1935216", "2011", "41.97776789702728", "-87.65630658628733", [ null, "41.97776789702728", "-87.65630658628733", null, false ] ]
+, [ 4675397, "1E7E8229-399B-4221-A314-13F7136436D8", 4675397, 1333578951, "21484", 1333578951, "21484", "{\n}", "HT489576", "2011-09-09T23:00:00", "031XX W BERTEAU AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1724", "33", "07", "1154335", "1927702", "2011", "41.957441196321206", "-87.70800789102826", [ null, "41.957441196321206", "-87.70800789102826", null, false ] ]
+, [ 4676202, "E1BA7EAE-72CA-43CE-9BCA-45528855DAB9", 4676202, 1333578952, "21484", 1333578952, "21484", "{\n}", "HT491039", "2011-09-10T21:30:00", "003XX E ILLINOIS ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1834", "42", "07", "1178427", "1903718", "2011", "41.89111176944315", "-87.620172061378", [ null, "41.89111176944315", "-87.620172061378", null, false ] ]
+, [ 4676587, "B450A502-20BA-48E0-A12A-E3434973FD7E", 4676587, 1333578952, "21484", 1333578952, "21484", "{\n}", "HT491488", "2011-09-10T22:00:00", "004XX E RANDOLPH ST", "0927", "MOTOR VEHICLE THEFT", "ATTEMPT: CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0124", "42", "07", "1179262", "1901369", "2011", "41.88464691744503", "-87.61717755256879", [ null, "41.88464691744503", "-87.61717755256879", null, false ] ]
+, [ 4677088, "FD62ED77-E0EE-449B-9A5F-2A80977C3B41", 4677088, 1333578952, "21484", 1333578952, "21484", "{\n}", "HT492293", "2011-09-11T20:10:00", "068XX W ARCHER AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0811", "23", "07", "1131392", "1867338", "2011", "41.79222199379374", "-87.79375009444145", [ null, "41.79222199379374", "-87.79375009444145", null, false ] ]
+, [ 4678286, "3CB85C84-42D9-4C47-BC30-319E8F63A116", 4678286, 1333578953, "21484", 1333578953, "21484", "{\n}", "HT494054", "2011-09-09T16:00:00", "080XX S MARSHFIELD AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "0611", "21", "07", "1166778", "1851484", "2011", "41.748033798583535", "-87.66444619746252", [ null, "41.748033798583535", "-87.66444619746252", null, false ] ]
+, [ 4678568, "584E6297-627E-40B4-ACF7-3FF0102C149D", 4678568, 1333578953, "21484", 1333578953, "21484", "{\n}", "HT494490", "2011-09-12T19:00:00", "013XX N DEARBORN ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1824", "42", "07", "1175721", "1909508", "2011", "41.90706110261509", "-87.62993542273585", [ null, "41.90706110261509", "-87.62993542273585", null, false ] ]
+, [ 4678586, "533BD49B-EE3E-4CE0-AB8C-ADAE336F70B4", 4678586, 1333578953, "21484", 1333578953, "21484", "{\n}", "HT494609", "2011-09-13T00:00:00", "005XX N LAKE SHORE DR", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1834", "42", "07", "1179951", "1904178", "2011", "41.892339135102596", "-87.6145610803971", [ null, "41.892339135102596", "-87.6145610803971", null, false ] ]
+, [ 4678645, "D44EEF0C-259A-4A6F-A66F-0AF5CF8053D4", 4678645, 1333578953, "21484", 1333578953, "21484", "{\n}", "HT491538", "2011-09-11T10:10:00", "017XX E 70TH ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0332", "5", "07", "1189261", "1858957", "2011", "41.76803122278715", "-87.5818228491276", [ null, "41.76803122278715", "-87.5818228491276", null, false ] ]
+, [ 4679441, "251E9BD6-ABBD-4899-B328-F6585B9019D2", 4679441, 1333578954, "21484", 1333578954, "21484", "{\n}", "HT496039", "2011-09-14T00:01:00", "012XX N PAULINA ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1424", "1", "07", "1164918", "1908646", "2011", "41.904931946843774", "-87.66964374232468", [ null, "41.904931946843774", "-87.66964374232468", null, false ] ]
+, [ 4679762, "F47F23EE-AAA7-42AA-AE70-37B08B7F65E4", 4679762, 1333578954, "21484", 1333578954, "21484", "{\n}", "HT495500", "2011-09-13T05:20:00", "016XX W NELSON ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1931", "32", "07", "1164963", "1920355", "2011", "41.93706120804229", "-87.6691453183247", [ null, "41.93706120804229", "-87.6691453183247", null, false ] ]
+, [ 4680095, "F6B15F53-8D31-4222-B019-0AA1EC05B446", 4680095, 1333578954, "21484", 1333578954, "21484", "{\n}", "HT497226", "2011-08-22T12:00:00", "029XX W ALTGELD ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1414", "35", "07", "1156421", "1916518", "2011", "41.92670950962852", "-87.70064253742434", [ null, "41.92670950962852", "-87.70064253742434", null, false ] ]
+, [ 4680942, "94226F49-1096-4C84-8459-48A2F4D1D3D6", 4680942, 1333578955, "21484", 1333578955, "21484", "{\n}", "HT498331", "2011-09-15T08:30:00", "008XX W 14TH PL", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1232", "25", "07", "1171249", "1893216", "2011", "41.86245423195908", "-87.6468416006693", [ null, "41.86245423195908", "-87.6468416006693", null, false ] ]
+, [ 4681388, "7DC91A70-AAE7-48D3-877F-282E0040ACCF", 4681388, 1333578955, "21484", 1333578955, "21484", "{\n}", "HT498119", "2011-09-11T23:00:00", "057XX N CENTRAL PARK AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "SIDEWALK", false, false, "1711", "39", "07", "1151383", "1937995", "2011", "41.985744441842556", "-87.71858891785557", [ null, "41.985744441842556", "-87.71858891785557", null, false ] ]
+, [ 4682938, "A652DD79-D52F-4D7B-8CE8-B885895F080B", 4682938, 1333578956, "21484", 1333578956, "21484", "{\n}", "HT501276", "2011-09-16T16:00:00", "009XX N KINGSBURY ST", "0918", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE NO VIN", "STREET", false, false, "1822", "27", "07", "1171874", "1906420", "2011", "41.89867315318441", "-87.64415809728635", [ null, "41.89867315318441", "-87.64415809728635", null, false ] ]
+, [ 4683582, "4BBAA939-22AD-411D-B96E-A5EB1A58AA3B", 4683582, 1333578956, "21484", 1333578956, "21484", "{\n}", "HT499491", "2011-09-14T22:00:00", "054XX N EAST RIVER RD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1614", "41", "07", "1116673", "1935180", "2011", "41.978632411365936", "-87.84631219902178", [ null, "41.978632411365936", "-87.84631219902178", null, false ] ]
+, [ 4684924, "C6198CF4-7C41-4436-AB88-EF99AE53C831", 4684924, 1333578957, "21484", 1333578957, "21484", "{\n}", "HT504345", "2011-09-19T07:00:00", "014XX W POLK ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1213", "25", "07", "1167092", "1896596", "2011", "41.87181943355324", "-87.66200430441792", [ null, "41.87181943355324", "-87.66200430441792", null, false ] ]
+, [ 4684993, "5D6098C7-C24B-4991-97A1-4E7140F992EB", 4684993, 1333578957, "21484", 1333578957, "21484", "{\n}", "HT504633", "2011-09-19T05:15:00", "029XX W 82ND ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "0835", "18", "07", "1158370", "1850150", "2011", "41.74454832125931", "-87.69529228594331", [ null, "41.74454832125931", "-87.69529228594331", null, false ] ]
+, [ 4685821, "647947DC-1E43-438E-954E-2874809DDD90", 4685821, 1333578958, "21484", 1333578958, "21484", "{\n}", "HT505375", "2011-09-20T05:30:00", "014XX W LELAND AVE", "0918", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE NO VIN", "STREET", false, false, "2311", "46", "07", "1165872", "1931271", "2011", "41.96699582538577", "-87.66549200329321", [ null, "41.96699582538577", "-87.66549200329321", null, false ] ]
+, [ 4686826, "B7E03B04-41C3-486A-850A-AC3D8B42BC51", 4686826, 1333578958, "21484", 1333578958, "21484", "{\n}", "HT506224", "2011-09-13T21:30:00", "020XX N HOYNE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1432", "32", "07", "1162054", "1913965", "2011", "41.91958798720489", "-87.68001524506349", [ null, "41.91958798720489", "-87.68001524506349", null, false ] ]
+, [ 4687527, "20392D54-EB99-4F6F-AA2B-A8593DB11F95", 4687527, 1333578959, "21484", 1333578959, "21484", "{\n}", "HT508269", "2011-09-21T21:00:00", "052XX W POLK ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1522", "29", "07", "1141378", "1895837", "2011", "41.87024969905523", "-87.75643045037127", [ null, "41.87024969905523", "-87.75643045037127", null, false ] ]
+, [ 4688077, "27590195-F24B-438C-B30D-1C21A70538CC", 4688077, 1333578959, "21484", 1333578959, "21484", "{\n}", "HT509253", "2011-09-22T16:00:00", "076XX S OGLESBY AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "0414", "7", "07", "1193236", "1854691", "2011", "41.75622876168427", "-87.56739213488606", [ null, "41.75622876168427", "-87.56739213488606", null, false ] ]
+, [ 4688569, "B9F26080-A319-4282-84C4-97DF368BE18B", 4688569, 1333578959, "21484", 1333578959, "21484", "{\n}", "HT509996", "2011-09-23T01:00:00", "051XX W OHIO ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1532", "28", "07", "1142000", "1903479", "2011", "41.89120880839692", "-87.75395745508946", [ null, "41.89120880839692", "-87.75395745508946", null, false ] ]
+, [ 4688633, "581A0B91-038F-4457-A5E5-01588C9551C4", 4688633, 1333578959, "21484", 1333578959, "21484", "{\n}", "HT508726", "2011-09-22T07:00:00", "016XX S RIDGEWAY AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1014", "24", "07", "1151596", "1891551", "2011", "41.85829385043115", "-87.71902919297672", [ null, "41.85829385043115", "-87.71902919297672", null, false ] ]
+, [ 4689808, "95FC51D0-ABA3-491B-8268-76E2DCEB71E3", 4689808, 1333578960, "21484", 1333578960, "21484", "{\n}", "HT511026", "2011-09-15T21:00:00", "054XX N EAST RIVER RD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "1614", "41", "07", "1116672", "1934944", "2011", "41.97798481479027", "-87.8463208110973", [ null, "41.97798481479027", "-87.8463208110973", null, false ] ]
+, [ 4690197, "01FA9F7A-75DA-49B4-B76A-3A1BA3C38F63", 4690197, 1333578960, "21484", 1333578960, "21484", "{\n}", "HT512303", "2011-09-24T00:45:00", "034XX N PARIS AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1631", "36", "07", "1121177", "1921887", "2011", "41.94208334356861", "-87.83003526962088", [ null, "41.94208334356861", "-87.83003526962088", null, false ] ]
+, [ 4691477, "4CC6D3E0-AAC4-42FB-9A69-D6E7BCFC0402", 4691477, 1333578961, "21484", 1333578961, "21484", "{\n}", "HT514693", "2011-09-26T03:30:00", "048XX S HOYNE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0915", "12", "07", "1163224", "1872244", "2011", "41.80507712082065", "-87.67688857278763", [ null, "41.80507712082065", "-87.67688857278763", null, false ] ]
+, [ 4692770, "0C09011D-7C88-40CC-8798-E64ADFB22033", 4692770, 1333578962, "21484", 1333578962, "21484", "{\n}", "HT516634", "2011-09-27T12:10:00", "070XX S CHAPPEL AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0331", "5", "07", "1191060", "1858509", "2011", "41.76675855248323", "-87.57524326751356", [ null, "41.76675855248323", "-87.57524326751356", null, false ] ]
+, [ 4692783, "6D06395C-F486-4446-9A54-3B800E4A45EE", 4692783, 1333578962, "21484", 1333578962, "21484", "{\n}", "HT516630", "2011-09-27T08:00:00", "084XX W GREGORY ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1614", "41", "07", "1118985", "1935723", "2011", "41.980086080232795", "-87.83779795066505", [ null, "41.980086080232795", "-87.83779795066505", null, false ] ]
+, [ 4693635, "DD7B411F-50D6-44EA-9B81-4239CED8359F", 4693635, 1333578962, "21484", 1333578962, "21484", "{\n}", "HT517735", "2011-09-27T19:00:00", "079XX S LANGLEY AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "0624", "6", "07", "1182317", "1852309", "2011", "41.74995209867504", "-87.60748112953212", [ null, "41.74995209867504", "-87.60748112953212", null, false ] ]
+, [ 4694470, "FF5A5EAC-9CD5-450C-B5BB-82C708A8CA22", 4694470, 1333578963, "21484", 1333578963, "21484", "{\n}", "HT519263", "2011-09-28T08:00:00", "051XX N KILDARE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1712", "39", "07", "1146741", "1933997", "2011", "41.97486381552419", "-87.7357646794594", [ null, "41.97486381552419", "-87.7357646794594", null, false ] ]
+, [ 4698415, "00E69D3C-9600-4EBE-8892-6ACBF3CD09C6", 4698415, 1333578968, "21484", 1333578968, "21484", "{\n}", "HT524774", "2011-09-29T21:00:00", "028XX S ARCHER AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0923", "11", "07", "1169272", "1886308", "2011", "41.84354123878432", "-87.65429939728868", [ null, "41.84354123878432", "-87.65429939728868", null, false ] ]
+, [ 4699166, "AD672ACD-DB0C-4192-8B85-1DEDC7D79D35", 4699166, 1333578968, "21484", 1333578968, "21484", "{\n}", "HT526488", "2011-10-03T21:35:00", "015XX S ST LOUIS AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1021", "24", "07", "1153244", "1892309", "2011", "41.860341374187406", "-87.71295984814962", [ null, "41.860341374187406", "-87.71295984814962", null, false ] ]
+, [ 4700722, "FA246530-06DC-4635-9A1A-6CB3616E9F21", 4700722, 1333578969, "21484", 1333578969, "21484", "{\n}", "HT528830", "2011-09-29T22:00:00", "013XX N WESTERN AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1423", "26", "07", "1160122", "1908972", "2011", "41.90592698818887", "-87.68725188404899", [ null, "41.90592698818887", "-87.68725188404899", null, false ] ]
+, [ 4701036, "FB66FF6A-063D-49A0-998A-605FCFF0B69B", 4701036, 1333578969, "21484", 1333578969, "21484", "{\n}", "HT529369", "2011-10-05T18:30:00", "0000X E HURON ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1834", "42", "07", "1176665", "1905123", "2011", "41.89500716427694", "-87.62660044768977", [ null, "41.89500716427694", "-87.62660044768977", null, false ] ]
+, [ 4701232, "E8953949-5F3A-4385-BBC8-21112CE0E462", 4701232, 1333578969, "21484", 1333578969, "21484", "{\n}", "HT529670", "2011-10-06T04:30:00", "035XX N NARRAGANSETT AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1633", "36", "07", "1133095", "1923068", "2011", "41.94512376266436", "-87.78620281477734", [ null, "41.94512376266436", "-87.78620281477734", null, false ] ]
+, [ 4701355, "863B83EE-93BA-4E20-A7F0-1033069BBC83", 4701355, 1333578969, "21484", 1333578969, "21484", "{\n}", "HT528715", "2011-10-02T08:00:00", "056XX N CLARK ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2012", "40", "07", "1164891", "1937302", "2011", "41.98356602864208", "-87.66892700997306", [ null, "41.98356602864208", "-87.66892700997306", null, false ] ]
+, [ 4701437, "66DFE605-8D1A-4E03-98F6-738D32B557AB", 4701437, 1333578969, "21484", 1333578969, "21484", "{\n}", "HT529936", "2011-10-05T11:00:00", "039XX N NATCHEZ AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1632", "38", "07", "1132366", "1925722", "2011", "41.95241936503764", "-87.7888204105149", [ null, "41.95241936503764", "-87.7888204105149", null, false ] ]
+, [ 4702435, "265035B6-EDFD-4EBA-BCAF-9254765EAAEE", 4702435, 1333578970, "21484", 1333578970, "21484", "{\n}", "HT528599", "2011-10-05T12:45:00", "030XX S MOE DR", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "2122", "4", "07", "1181405", "1885066", "2011", "41.83986124430095", "-87.6098127931261", [ null, "41.83986124430095", "-87.6098127931261", null, false ] ]
+, [ 4702777, "81B636F2-2504-4623-B525-F5B270D66AF8", 4702777, 1333578970, "21484", 1333578970, "21484", "{\n}", "HT532177", "2011-10-07T05:30:00", "084XX S KOMENSKY AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0834", "18", "07", "1150907", "1848491", "2011", "41.740144331160664", "-87.722681125727", [ null, "41.740144331160664", "-87.722681125727", null, false ] ]
+, [ 4703331, "3A472167-5383-48C1-9369-64B558C52340", 4703331, 1333578970, "21484", 1333578970, "21484", "{\n}", "HT532874", "2011-10-07T12:50:00", "005XX W ADAMS ST", "0937", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0111", "2", "07", "1172572", "1899318", "2011", "41.8791694152538", "-87.64180462321796", [ null, "41.8791694152538", "-87.64180462321796", null, false ] ]
+, [ 4703422, "EA156D3B-DAAB-4DF2-AFD7-02394F8FD85B", 4703422, 1333578970, "21484", 1333578970, "21484", "{\n}", "HT533095", "2011-10-07T23:00:00", "027XX N MELVINA AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2512", "29", "07", "1134631", "1917891", "2011", "41.930890461401134", "-87.78067964844477", [ null, "41.930890461401134", "-87.78067964844477", null, false ] ]
+, [ 4703770, "5F2EE42B-B52C-43D3-944A-7FBF178EC002", 4703770, 1333578971, "21484", 1333578971, "21484", "{\n}", "HT533600", "2011-10-08T16:00:00", "015XX S SPRINGFIELD AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "1014", "24", "07", "1150592", "1892102", "2011", "41.85982551321915", "-87.72270015186604", [ null, "41.85982551321915", "-87.72270015186604", null, false ] ]
+, [ 4704409, "B9DE4008-6F9E-4BF6-82D4-52922EC3E7C0", 4704409, 1333578971, "21484", 1333578971, "21484", "{\n}", "HT534791", "2011-10-08T23:30:00", "032XX N HOYNE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "1913", "32", "07", "1161733", "1921864", "2011", "41.94127004934602", "-87.6809738259901", [ null, "41.94127004934602", "-87.6809738259901", null, false ] ]
+, [ 4704568, "E31856EB-EB13-4C40-A613-9E50AF705F56", 4704568, 1333578971, "21484", 1333578971, "21484", "{\n}", "HT534956", "2011-10-08T10:00:00", "021XX N SAWYER AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1413", "26", "07", "1154120", "1914108", "2011", "41.920142551048755", "-87.7091621812721", [ null, "41.920142551048755", "-87.7091621812721", null, false ] ]
+, [ 4705061, "FE90F58D-FEFB-4483-A3E6-F5494DDA6603", 4705061, 1333578971, "21484", 1333578971, "21484", "{\n}", "HT531153", "2011-09-12T16:00:00", "071XX S SOUTH CHICAGO AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENCE-GARAGE", false, false, "0323", "5", "07", "1183156", "1857714", "2011", "41.76476450666271", "-87.60423884418448", [ null, "41.76476450666271", "-87.60423884418448", null, false ] ]
+, [ 4705077, "1F0D7E5B-A8F1-4A18-9450-01995CE0C552", 4705077, 1333578971, "21484", 1333578971, "21484", "{\n}", "HT535402", "2011-10-09T12:00:00", "050XX S ASHLAND AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0931", "16", "07", "1166480", "1871496", "2011", "41.80295566079303", "-87.66496825393395", [ null, "41.80295566079303", "-87.66496825393395", null, false ] ]
+, [ 4705439, "80DC626A-D9EF-4CB7-A626-C1249BA22BB3", 4705439, 1333578972, "21484", 1333578972, "21484", "{\n}", "HT536003", "2011-10-09T16:30:00", "059XX N NORTHWEST HWY", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1612", "41", "07", "1131271", "1938871", "2011", "41.98852055708447", "-87.79254062635397", [ null, "41.98852055708447", "-87.79254062635397", null, false ] ]
+, [ 4706153, "6614D392-E57D-4190-BAB4-116E72A533F8", 4706153, 1333578972, "21484", 1333578972, "21484", "{\n}", "HT537337", "2011-10-10T21:00:00", "061XX W BYRON ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1633", "38", "07", "1134858", "1925322", "2011", "41.951277911576", "-87.77966907966537", [ null, "41.951277911576", "-87.77966907966537", null, false ] ]
+, [ 4707074, "6AE08EA3-0823-44D4-BA3E-96B456C9F74D", 4707074, 1333578972, "21484", 1333578972, "21484", "{\n}", "HT538296", "2011-10-10T22:00:00", "056XX W IRVING PARK RD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1624", "38", "07", "1138131", "1926074", "2011", "41.95328282142007", "-87.76761920952599", [ null, "41.95328282142007", "-87.76761920952599", null, false ] ]
+, [ 4707104, "2A2FBB15-758D-4299-9ED4-1CAE4D275C29", 4707104, 1333578972, "21484", 1333578972, "21484", "{\n}", "HT538061", "2011-10-11T00:01:00", "040XX N MOBILE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1624", "38", "07", "1133674", "1926294", "2011", "41.95396608773571", "-87.78399859696147", [ null, "41.95396608773571", "-87.78399859696147", null, false ] ]
+, [ 4707125, "6132F9DD-D6F9-4303-B654-1033A08C3D63", 4707125, 1333578973, "21484", 1333578973, "21484", "{\n}", "HT538625", "2011-10-11T23:30:00", "052XX N OAKVIEW AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1614", "41", "07", "1117274", "1933829", "2011", "41.97491570843451", "-87.84413031160479", [ null, "41.97491570843451", "-87.84413031160479", null, false ] ]
+, [ 4711143, "6A88F4D2-D749-4A2C-BB68-392855B18A0A", 4711143, 1333578975, "21484", 1333578975, "21484", "{\n}", "HT544228", "2011-10-08T08:00:00", "008XX N RACINE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "1323", "27", "07", "1168281", "1905616", "2011", "41.8965453676637", "-87.65737817571487", [ null, "41.8965453676637", "-87.65737817571487", null, false ] ]
+, [ 4711385, "EBE1558E-1256-435A-8CC3-1C667DEDF606", 4711385, 1333578975, "21484", 1333578975, "21484", "{\n}", "HT545773", "2011-10-16T18:30:00", "013XX N AUSTIN BLVD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2531", "29", "07", "1136150", "1908519", "2011", "41.905145591593964", "-87.77532163462371", [ null, "41.905145591593964", "-87.77532163462371", null, false ] ]
+, [ 4711409, "F50E8CBF-E7FE-4728-9828-0F548BFC954F", 4711409, 1333578975, "21484", 1333578975, "21484", "{\n}", "HT545674", "2011-10-16T16:00:00", "008XX E 63RD ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0312", "20", "07", "1183006", "1863381", "2011", "41.78031878088446", "-87.60461263254564", [ null, "41.78031878088446", "-87.60461263254564", null, false ] ]
+, [ 4711795, "6A964352-FE9F-4A9C-911E-1376AE1BCB9B", 4711795, 1333578975, "21484", 1333578975, "21484", "{\n}", "HT546302", "2011-10-16T17:30:00", "048XX N ALBANY AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1713", "33", "07", "1154794", "1932023", "2011", "41.969289081481236", "-87.7062041874589", [ null, "41.969289081481236", "-87.7062041874589", null, false ] ]
+, [ 4711899, "D6DC9630-64AA-4580-B8C9-DB20429E1751", 4711899, 1333578975, "21484", 1333578975, "21484", "{\n}", "HT546408", "2011-09-20T12:00:00", "013XX N DEARBORN ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1824", "42", "07", "1175641", "1909494", "2011", "41.90702448574807", "-87.63022971510568", [ null, "41.90702448574807", "-87.63022971510568", null, false ] ]
+, [ 4712165, "F43B9D8D-6171-4562-86A5-9812B6A8E6C0", 4712165, 1333578975, "21484", 1333578975, "21484", "{\n}", "HT545291", "2011-10-15T20:00:00", "005XX S WABASH AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0132", "2", "07", "1176920", "1898026", "2011", "41.87552684769384", "-87.62587879358497", [ null, "41.87552684769384", "-87.62587879358497", null, false ] ]
+, [ 4713010, "9393E384-368A-4218-8C5F-56F6E15D5121", 4713010, 1333578976, "21484", 1333578976, "21484", "{\n}", "HT546348", "2011-10-08T04:00:00", "005XX W ADAMS ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0111", "2", "07", "1172613", "1899399", "2011", "41.87939077796613", "-87.6416516825958", [ null, "41.87939077796613", "-87.6416516825958", null, false ] ]
+, [ 4713832, "CAD1AF8A-8F8E-4B74-B907-8161C4653B94", 4713832, 1333578976, "21484", 1333578976, "21484", "{\n}", "HT547718", "2011-10-18T00:01:00", "029XX N KEDZIE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1411", "35", "07", "1154575", "1919366", "2011", "41.93456181924713", "-87.70734938433075", [ null, "41.93456181924713", "-87.70734938433075", null, false ] ]
+, [ 4714845, "AF60013E-489C-4041-9616-635BB7A93E36", 4714845, 1333578977, "21484", 1333578977, "21484", "{\n}", "HT550987", "2011-10-20T07:30:00", "053XX W BELLE PLAINE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1624", "38", "07", "1139702", "1926775", "2011", "41.95517782922247", "-87.7618268191133", [ null, "41.95517782922247", "-87.7618268191133", null, false ] ]
+, [ 4714935, "0CD60AB9-3EDD-4370-88AB-F368403970DE", 4714935, 1333578977, "21484", 1333578977, "21484", "{\n}", "HT551161", "2011-10-19T23:00:00", "014XX S KEDVALE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "1011", "24", "07", "1148984", "1892988", "2011", "41.86228803623187", "-87.72857981217199", [ null, "41.86228803623187", "-87.72857981217199", null, false ] ]
+, [ 4717172, "891DAC4B-8358-42E1-A73E-D1D06C598D62", 4717172, 1333578978, "21484", 1333578978, "21484", "{\n}", "HT554747", "2011-10-22T17:40:00", "036XX N ELSTON AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1733", "35", "07", "1153836", "1923975", "2011", "41.94722403063217", "-87.7099420469777", [ null, "41.94722403063217", "-87.7099420469777", null, false ] ]
+, [ 4717878, "49604937-071E-42C5-BC0F-58623814E00A", 4717878, 1333578979, "21484", 1333578979, "21484", "{\n}", "HT555783", "2011-10-23T05:00:00", "033XX W IRVING PARK RD", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "GAS STATION", false, false, "1733", "33", "07", "1153644", "1926362", "2011", "41.95377795467594", "-87.71058403802131", [ null, "41.95377795467594", "-87.71058403802131", null, false ] ]
+, [ 4718167, "15596DB4-8944-458D-9DAE-D9F0401EF16B", 4718167, 1333578979, "21484", 1333578979, "21484", "{\n}", "HT556304", "2011-10-23T19:00:00", "031XX N HAMLIN AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2523", "30", "07", "1150659", "1920649", "2011", "41.93816003625049", "-87.72170715400857", [ null, "41.93816003625049", "-87.72170715400857", null, false ] ]
+, [ 4718703, "1F50E634-D38E-42B6-AC0A-5AA9B5483315", 4718703, 1333578979, "21484", 1333578979, "21484", "{\n}", "HT555154", "2011-10-22T23:00:00", "025XX N MENARD AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2515", "30", "07", "1137328", "1916389", "2011", "41.926720676473984", "-87.77080478011702", [ null, "41.926720676473984", "-87.77080478011702", null, false ] ]
+, [ 4721389, "0A70A37E-36E5-49D8-9134-750761E72028", 4721389, 1333578981, "21484", 1333578981, "21484", "{\n}", "HT560741", "2011-10-25T07:00:00", "026XX W BRYN MAWR AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2011", "40", "07", "1157649", "1937131", "2011", "41.9832478598894", "-87.69556649078278", [ null, "41.9832478598894", "-87.69556649078278", null, false ] ]
+, [ 4722936, "B2D98601-C3E8-4052-9338-070317A8625E", 4722936, 1333578981, "21484", 1333578981, "21484", "{\n}", "HT563084", "2011-10-26T19:30:00", "030XX S FARRELL ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0923", "11", "07", "1170030", "1884749", "2011", "41.83924672375343", "-87.65156312810056", [ null, "41.83924672375343", "-87.65156312810056", null, false ] ]
+, [ 4723726, "1B978B69-8AE2-4500-94F7-B42021DD14F8", 4723726, 1333578982, "21484", 1333578982, "21484", "{\n}", "HT564147", "2011-10-27T16:30:00", "046XX N MONTICELLO AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1723", "33", "07", "1151183", "1930441", "2011", "41.965019732114975", "-87.71952358701617", [ null, "41.965019732114975", "-87.71952358701617", null, false ] ]
+, [ 4724511, "152ECF6F-7191-400D-8E9F-D1AFCEB75C8C", 4724511, 1333578982, "21484", 1333578982, "21484", "{\n}", "HT565689", "2011-10-28T21:00:00", "027XX W ARTHUR AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2412", "50", "07", "1156517", "1942965", "2011", "41.99927966847803", "-87.69957098756177", [ null, "41.99927966847803", "-87.69957098756177", null, false ] ]
+, [ 4724634, "82131431-D6B5-400B-838D-1C206FE7D0D7", 4724634, 1333578982, "21484", 1333578982, "21484", "{\n}", "HT565240", "2011-10-18T13:10:00", "058XX N BROADWAY", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2013", "48", "07", "1167209", "1938960", "2011", "41.98806596561485", "-87.66035394456465", [ null, "41.98806596561485", "-87.66035394456465", null, false ] ]
+, [ 4725791, "43B9DC8D-9287-4E7F-BB08-6F570A6F4FB5", 4725791, 1333578983, "21484", 1333578983, "21484", "{\n}", "HT567640", "2011-10-27T23:00:00", "004XX N MC CLURG CT", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1834", "42", "07", "1179090", "1903004", "2011", "41.88913737321913", "-87.61775908626134", [ null, "41.88913737321913", "-87.61775908626134", null, false ] ]
+, [ 4726297, "27E753E4-C739-4750-8472-5760BDC4CE47", 4726297, 1333578983, "21484", 1333578983, "21484", "{\n}", "HT568522", "2011-10-30T16:00:00", "001XX W KINZIE ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "1831", "42", "07", "1174814", "1902941", "2011", "41.889061273954496", "-87.63346397405067", [ null, "41.889061273954496", "-87.63346397405067", null, false ] ]
+, [ 4728212, "39D9EA04-CC79-4A3E-B0AB-C1BA76C8FD50", 4728212, 1333578984, "21484", 1333578984, "21484", "{\n}", "HT570947", "2011-11-01T20:30:00", "033XX N OAKLEY AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "1913", "32", "07", "1160479", "1922355", "2011", "41.942643477781864", "-87.68556912699034", [ null, "41.942643477781864", "-87.68556912699034", null, false ] ]
+, [ 4728733, "C0A38408-9D35-4D27-B8AE-678B96034F67", 4728733, 1333578985, "21484", 1333578985, "21484", "{\n}", "HT571800", "2011-11-02T12:00:00", "120XX S PRINCETON AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "0523", "34", "07", "1176491", "1825038", "2011", "41.67524958636766", "-87.62964668177027", [ null, "41.67524958636766", "-87.62964668177027", null, false ] ]
+, [ 4729657, "180187CA-E54D-4DE8-A984-976199AA69B3", 4729657, 1333578986, "21484", 1333578986, "21484", "{\n}", "HT573051", "2011-11-03T01:00:00", "041XX N KEDVALE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENCE PORCH/HALLWAY", false, false, "1722", "39", "07", "1148140", "1927362", "2011", "41.956629999197865", "-87.73079164675788", [ null, "41.956629999197865", "-87.73079164675788", null, false ] ]
+, [ 4730741, "00458BAC-4A5A-43BE-85BA-D4E9FD728748", 4730741, 1333578986, "21484", 1333578986, "21484", "{\n}", "HT575126", "2011-11-04T19:14:00", "013XX N PARKSIDE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "2531", "29", "07", "1138464", "1908450", "2011", "41.904914626828145", "-87.76682312026915", [ null, "41.904914626828145", "-87.76682312026915", null, false ] ]
+, [ 4730981, "D214F1C9-4664-4E64-9D6A-EE11810E1CBC", 4730981, 1333578986, "21484", 1333578986, "21484", "{\n}", "HT575295", "2011-11-03T08:00:00", "012XX W GRANVILLE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "APARTMENT", true, false, "2433", "48", "07", "1166982", "1941279", "2011", "41.9944342472603", "-87.66112191319989", [ null, "41.9944342472603", "-87.66112191319989", null, false ] ]
+, [ 4731084, "76D95FED-C057-4E14-83C7-0E37C804388D", 4731084, 1333578987, "21484", 1333578987, "21484", "{\n}", "HT575726", "2011-10-31T19:30:00", "001XX W BURTON PL", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1821", "43", "07", "1174758", "1910305", "2011", "41.909269723085934", "-87.63344900619745", [ null, "41.909269723085934", "-87.63344900619745", null, false ] ]
+, [ 4733120, "5AE1B364-1702-4902-9E52-76AEF1E66944", 4733120, 1333578988, "21484", 1333578988, "21484", "{\n}", "HT578092", "2011-11-06T22:00:00", "009XX N SPRINGFIELD AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENCE-GARAGE", false, true, "1112", "27", "07", "1150175", "1906008", "2011", "41.89799324794757", "-87.72386837033355", [ null, "41.89799324794757", "-87.72386837033355", null, false ] ]
+, [ 4734761, "01856CEA-E8FE-4888-947B-26FE02F54BA9", 4734761, 1333578989, "21484", 1333578989, "21484", "{\n}", "HT575905", "2011-11-05T10:00:00", "053XX N LAKEWOOD AVE", "0918", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE NO VIN", "ALLEY", false, true, "2013", "48", "07", "1166639", "1935392", "2011", "41.97828754544141", "-87.66255321631868", [ null, "41.97828754544141", "-87.66255321631868", null, false ] ]
+, [ 4734817, "6A7A15B6-36EC-42B1-B9BD-C05438D0C585", 4734817, 1333578989, "21484", 1333578989, "21484", "{\n}", "HT581462", "2011-10-05T17:00:00", "003XX N DESPLAINES ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1212", "42", "07", "1171900", "1902670", "2011", "41.88838235335246", "-87.64417323167827", [ null, "41.88838235335246", "-87.64417323167827", null, false ] ]
+, [ 4735739, "7ABB7F3D-187B-4B30-ACBD-021DFABF3EAE", 4735739, 1333578989, "21484", 1333578989, "21484", "{\n}", "HT510124", "2011-09-22T19:00:00", "006XX W 18TH ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1233", "25", "07", "1172590", "1891505", "2011", "41.857729589282", "-87.64196957905585", [ null, "41.857729589282", "-87.64196957905585", null, false ] ]
+, [ 4739377, "166EEB52-E1E5-40B2-A99D-F0A034147A51", 4739377, 1333578991, "21484", 1333578991, "21484", "{\n}", "HT588744", "2011-11-13T21:00:00", "016XX W LAKE ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1333", "27", "07", "1165635", "1901545", "2011", "41.885431033865274", "-87.66721250429255", [ null, "41.885431033865274", "-87.66721250429255", null, false ] ]
+, [ 4741053, "4EAB4060-1C96-4C08-B1BE-E9C403144639", 4741053, 1333578992, "21484", 1333578992, "21484", "{\n}", "HT591048", "2011-11-15T16:30:00", "004XX N LOWER MICHIGAN AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", true, false, "1834", "42", "07", "1177372", "1903120", "2011", "41.8894948236388", "-87.62406466602575", [ null, "41.8894948236388", "-87.62406466602575", null, false ] ]
+, [ 4743663, "5B500F2B-166F-4325-BD56-C3E3BE9A8347", 4743663, 1333578994, "21484", 1333578994, "21484", "{\n}", "HT594959", "2011-11-18T09:30:00", "052XX S MAYFIELD AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENCE-GARAGE", false, false, "0811", "23", "07", "1137875", "1869417", "2011", "41.79781301245899", "-87.76992745935304", [ null, "41.79781301245899", "-87.76992745935304", null, false ] ]
+, [ 4744840, "8D9EF306-35C3-4639-B2C5-1D996238994E", 4744840, 1333578994, "21484", 1333578994, "21484", "{\n}", "HT596400", "2011-11-18T23:01:00", "024XX N CALIFORNIA AVE", "0937", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1431", "1", "07", "1157334", "1916210", "2011", "41.9258457995928", "-87.69729605613057", [ null, "41.9258457995928", "-87.69729605613057", null, false ] ]
+, [ 4745806, "7A211C25-561D-4179-B1FA-0CBB29198983", 4745806, 1333578995, "21484", 1333578995, "21484", "{\n}", "HT598272", "2011-11-20T15:00:00", "010XX W CATALPA AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENCE-GARAGE", false, false, "2023", "48", "07", "1168124", "1936660", "2011", "41.98173493145238", "-87.65705531601238", [ null, "41.98173493145238", "-87.65705531601238", null, false ] ]
+, [ 4746272, "1D472D22-13C5-4F83-A3E8-BB0A47041B31", 4746272, 1333578995, "21484", 1333578995, "21484", "{\n}", "HT598902", "2011-11-18T20:00:00", "011XX W OHIO ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1323", "27", "07", "1168726", "1903992", "2011", "41.89207937090824", "-87.65579088022042", [ null, "41.89207937090824", "-87.65579088022042", null, false ] ]
+, [ 4747075, "4DA50B4A-6683-4E8A-B838-377A2ED026F8", 4747075, 1333578996, "21484", 1333578996, "21484", "{\n}", "HT599878", "2011-11-11T12:00:00", "015XX N HONORE ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1424", "1", "07", "1163704", "1910307", "2011", "41.90951553603565", "-87.67405622942228", [ null, "41.90951553603565", "-87.67405622942228", null, false ] ]
+, [ 4747301, "7134A8F1-0417-4F21-BCE8-098FDAB5230B", 4747301, 1333578996, "21484", 1333578996, "21484", "{\n}", "HT600495", "2011-11-21T09:00:00", "111XX S AVENUE E", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "0433", "10", "07", "1203759", "1831886", "2011", "41.693386695561536", "-87.52960883566328", [ null, "41.693386695561536", "-87.52960883566328", null, false ] ]
+, [ 4751191, "CA53C59A-3884-4665-B2DD-8EE9C7599287", 4751191, 1333578998, "21484", 1333578998, "21484", "{\n}", "HT606548", "2011-11-26T13:00:00", "074XX S WABASH AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "SIDEWALK", false, false, "0323", "6", "07", "1177969", "1855623", "2011", "41.75914564603552", "-87.62331374488025", [ null, "41.75914564603552", "-87.62331374488025", null, false ] ]
+, [ 4751776, "D885D166-E064-443F-AE22-0EA29ED5F1CD", 4751776, 1333578998, "21484", 1333578998, "21484", "{\n}", "HT607623", "2011-11-25T19:00:00", "049XX W HIRSCH ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "OTHER", false, false, "2533", "37", "07", "1143106", "1908816", "2011", "41.905833582205794", "-87.74976227544676", [ null, "41.905833582205794", "-87.74976227544676", null, false ] ]
+, [ 4751986, "E9E4007F-D153-4E0E-AFAB-E2C895EA998B", 4751986, 1333578998, "21484", 1333578998, "21484", "{\n}", "HT607829", "2011-11-26T00:00:00", "014XX W HURON ST", "0937", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN", "DRIVEWAY - RESIDENTIAL", false, false, "1324", "27", "07", "1166889", "1904756", "2011", "41.89421544819725", "-87.6625154184733", [ null, "41.89421544819725", "-87.6625154184733", null, false ] ]
+, [ 4753463, "1A0F10E6-FCD6-4FF6-B486-3A8E1D2EE8D2", 4753463, 1333578999, "21484", 1333578999, "21484", "{\n}", "HT610137", "2011-11-28T21:30:00", "065XX N KEDZIE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2412", "50", "07", "1153892", "1943185", "2011", "41.99993626693635", "-87.70922178432085", [ null, "41.99993626693635", "-87.70922178432085", null, false ] ]
+, [ 4753798, "249F86AD-8F0F-4141-A93D-0A4487B1AF59", 4753798, 1333579000, "21484", 1333579000, "21484", "{\n}", "HT610526", "2011-11-28T19:30:00", "036XX N PINE GROVE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2323", "46", "07", "1171356", "1924450", "2011", "41.94815972465826", "-87.64552949607705", [ null, "41.94815972465826", "-87.64552949607705", null, false ] ]
+, [ 4753823, "ADD3912C-7070-4731-9CD2-92BC5D824FBA", 4753823, 1333579000, "21484", 1333579000, "21484", "{\n}", "HT610239", "2011-11-23T14:30:00", "019XX W 19TH ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1223", "25", "07", "1163480", "1890705", "2011", "41.855730738965946", "-87.67543114145295", [ null, "41.855730738965946", "-87.67543114145295", null, false ] ]
+, [ 4757407, "CE8A6428-15FD-4868-A0A4-06332FBCCDA5", 4757407, 1333579002, "21484", 1333579002, "21484", "{\n}", "HT616248", "2011-12-03T15:00:00", "0000X E 8TH ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "PARKING LOT/GARAGE(NON.RESID.)", false, false, "0132", "2", "07", "1176545", "1896709", "2011", "41.871921394007735", "-87.62729540989574", [ null, "41.871921394007735", "-87.62729540989574", null, false ] ]
+, [ 4757450, "1FE22889-4F8F-4681-AA9B-18AC0C1E723C", 4757450, 1333579002, "21484", 1333579002, "21484", "{\n}", "HT616352", "2011-12-02T19:00:00", "018XX S PEORIA ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "SIDEWALK", false, false, "1233", "25", "07", "1170907", "1891591", "2011", "41.85800260142116", "-87.6481446353401", [ null, "41.85800260142116", "-87.6481446353401", null, false ] ]
+, [ 4758134, "5675F539-2B98-4A31-A4A9-A9FF94EF92A5", 4758134, 1333579002, "21484", 1333579002, "21484", "{\n}", "HT617418", "2011-12-04T11:30:00", "020XX N WESTERN AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1432", "32", "07", "1160083", "1913331", "2011", "41.917889220552574", "-87.68727453423831", [ null, "41.917889220552574", "-87.68727453423831", null, false ] ]
+, [ 4758250, "F873E8EC-210E-4D27-B92C-8941C2DAE7D9", 4758250, 1333579002, "21484", 1333579002, "21484", "{\n}", "HT617723", "2011-12-03T00:01:00", "046XX N WINCHESTER AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1922", "47", "07", "1162543", "1930626", "2011", "41.96529646866751", "-87.67775041705173", [ null, "41.96529646866751", "-87.67775041705173", null, false ] ]
+, [ 4759405, "C46FBF3E-A382-4994-9AD4-BA601316C79B", 4759405, 1333579003, "21484", 1333579003, "21484", "{\n}", "HT619060", "2011-12-04T02:00:00", "011XX W NEWPORT AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1924", "44", "07", "1167760", "1923014", "2011", "41.94429770300459", "-87.65878908056864", [ null, "41.94429770300459", "-87.65878908056864", null, false ] ]
+, [ 4761185, "D8D60568-0FDE-452F-9B43-63ED99F2B0C6", 4761185, 1333579004, "21484", 1333579004, "21484", "{\n}", "HT622078", "2011-12-06T14:00:00", "030XX N LEAVITT ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1913", "32", "07", "1161112", "1920470", "2011", "41.9374577747633", "-87.68329509281044", [ null, "41.9374577747633", "-87.68329509281044", null, false ] ]
+, [ 4761792, "7CB74A09-E92A-4C85-91EA-8610CD7D5378", 4761792, 1333579004, "21484", 1333579004, "21484", "{\n}", "HT623032", "2011-11-30T20:00:00", "039XX N PINE GROVE AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "2323", "46", "07", "1170728", "1926581", "2011", "41.95402106881406", "-87.64777521422292", [ null, "41.95402106881406", "-87.64777521422292", null, false ] ]
+, [ 4765073, "7CC186FD-3C4D-4CBF-A9DB-45C796C05250", 4765073, 1333579006, "21484", 1333579006, "21484", "{\n}", "HT618081", "2011-11-28T03:00:00", "048XX S KEATING AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0815", "23", "07", "1145463", "1872315", "2011", "41.8056257341378", "-87.74202743689634", [ null, "41.8056257341378", "-87.74202743689634", null, false ] ]
+, [ 4765169, "6298A9BB-82BD-4F15-8001-558CC0533176", 4765169, 1333579006, "21484", 1333579006, "21484", "{\n}", "HT628430", "2011-12-10T12:00:00", "052XX W BERTEAU AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1624", "38", "07", "1140444", "1927457", "2011", "41.95703568865715", "-87.75908224854108", [ null, "41.95703568865715", "-87.75908224854108", null, false ] ]
+, [ 4780037, "F7FF6AC3-9D46-4340-85C5-EF6704AFE84D", 4780037, 1333579015, "21484", 1333579015, "21484", "{\n}", "HT651927", "2011-12-29T01:00:00", "026XX E 91ST ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENCE-GARAGE", false, false, "0423", "7", "07", "1195342", "1845179", "2011", "41.730075352774556", "-87.55998752052307", [ null, "41.730075352774556", "-87.55998752052307", null, false ] ]
+, [ 4780410, "40133D66-76CA-4A40-8D38-8EB713714A94", 4780410, 1333579015, "21484", 1333579015, "21484", "{\n}", "HT652254", "2011-12-22T11:00:00", "054XX W HADDON AVE", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "1524", "37", "07", "1139831", "1907171", "2011", "41.9013800170614", "-87.76183294023691", [ null, "41.9013800170614", "-87.76183294023691", null, false ] ]
+, [ 4784325, "F245A760-BC4C-4F0A-A5E8-68FE0F7993A7", 4784325, 1333579017, "21484", 1333579017, "21484", "{\n}", "HV103530", "2011-12-31T19:00:00", "015XX S STATE ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "STREET", false, false, "0132", "3", "07", "1176618", "1893014", "2011", "41.861780432193584", "-87.62713899717218", [ null, "41.861780432193584", "-87.62713899717218", null, false ] ]
+, [ 4857436, "06D6B3EF-4179-4790-82DF-FCFF7148EBA3", 4857436, 1333579069, "21484", 1334314032, "386464", "{\n}", "HV219203", "2011-11-01T09:00:00", "096XX S CARPENTER ST", "0917", "MOTOR VEHICLE THEFT", "CYCLE, SCOOTER, BIKE W-VIN", "RESIDENCE-GARAGE", false, false, "2223", "21", "07", "1170981", "1840765", "2011", "41.718528668143435", "-87.6493571786226", [ null, "41.718528668143435", "-87.6493571786226", null, false ] ]
+, [ 4873701, "953F699C-ACDF-464B-8F9E-27ACFD9CF67F", 4873701, 1334832951, "386464", 1335005133, "386464", null, "HV248195", "2011-09-18T20:40:00", "074XX S WESTERN AVE", "0937", "MOTOR VEHICLE THEFT", "THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN", "STREET", true, false, "0835", "18", "07", "1161616", "1855518", "2011", "41.75921225787451", "-87.68324983886549", [ null, "41.75921225787451", "-87.68324983886549", null, false ] ]
+ ]
+}
