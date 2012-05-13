@@ -2,6 +2,7 @@ require 'rubygems'
 require 'twitter'
 require 'pry'
 require 'set'
+require 'geokit'
 
 load 'auth_module.rb' # GET THIS FROM TOMEK
 
