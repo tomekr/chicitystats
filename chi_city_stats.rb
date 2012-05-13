@@ -6,13 +6,16 @@ require 'geokit'
 
 load 'auth_module.rb' # GET THIS FROM TOMEK
 
-def respond_to_mention(user, location)
-  crime_rating = get_crime_rating user.location
-  Twitter.update("@#{ user } #{ crime_rating }")
-
+def respond_to_mention(user, text, location)
+  if location
+    crime_rating = get_crime_rating user.location
+    Twitter.update("@#{ user } #{ crime_rating }")
+  else
+    Twitter.update("@#{ user } please attatch location")
+  end
 end
 
-def get_crime_rating(location)
+def get_crime_rating(rectangular_radius)
 
 end
 
@@ -29,7 +32,8 @@ loop do
   mentions = Twitter.mentions
   mentions.each do |mention|
     unless mention_cache.include? [mention.text, mention.user.screen_name]
-      respond_to_mention mention.text, mention.user.screen_name
+      location =  mention.place.bounding_box.coordinates if mention.place
+      respond_to_mention mention.text, mention.user.screen_name, location
       mention_cache << [mention.text, mention.user.screen_name]
     end
   end
