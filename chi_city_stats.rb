@@ -2,7 +2,7 @@ require 'rubygems'
 require 'twitter'
 require 'pry'
 require 'set'
-require 'geokit'
+require 'json'
 
 load 'auth_module.rb' # GET THIS FROM TOMEK
 
@@ -15,8 +15,19 @@ def respond_to_mention(user, text, location)
   end
 end
 
-def get_crime_rating(rectangular_radius)
+BikeCrimesJSON = JSON.parse(File.read('data/bike_crimes.json'))
 
+# count < 10 = safe
+# 10 < count < 50 = low risk
+# 50 < count < 100 = medium risk
+# 100 < count = high risk
+
+def get_crime_rating(location)
+  count = 0
+  BikeCrimesJSON.data.each do |crime|
+    count++ if sqrt((crime[24] - location.lng)**2 + (crime.[23] - location.lat)**2) > 0.015
+  end
+  count
 end
 
 Twitter.configure do |config|
