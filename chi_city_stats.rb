@@ -11,7 +11,7 @@ def respond_to_mention(user, text, location)
     crime_rating = get_crime_rating user.location
     Twitter.update("@#{ user } #{ crime_rating }")
   else
-    Twitter.update("@#{ user } please attatch location")
+    Twitter.update("@#{ user } please enable and attatch location to tweet")
   end
 end
 
