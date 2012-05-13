@@ -7,12 +7,13 @@ require 'json'
 load 'auth_module.rb' # GET THIS FROM TOMEK
 
 def respond_to_mention(user, text, location)
-  # if location
-  #   crime_count, status = get_crime_rating user.location
-  #   Twitter.update("@#{ user } Thefts: #{ crime_count } Status: #{ status }")
-  # else
-  #   Twitter.update("@#{ user } please enable and attatch location to tweet")
-  # end
+  if location
+    crime_count, status = get_crime_rating user.location
+    puts crime_count, status
+    # Twitter.update("@#{ user } Thefts: #{ crime_count } Status: #{ status }")
+  else
+    # Twitter.update("@#{ user } please enable and attatch location to tweet")
+  end
 end
 
 BikeCrimesJSON = JSON.parse(File.read('data/bike_crimes.json'))
@@ -25,7 +26,7 @@ BikeCrimesJSON = JSON.parse(File.read('data/bike_crimes.json'))
 def get_crime_rating(location)
   count = 0
   BikeCrimesJSON.data.each do |crime|
-    count++ if sqrt((crime[24] - location.lng)**2 + (crime.[23] - location.lat)**2) > 0.015
+    count++ if sqrt((crime[24] - location.lng)**2 + (crime[23] - location.lat)**2) > 0.015
   end
   [count,count > 100 ? "High risk" : count > 50 ? "Medium risk" : count > 10 ? "Low risk" : "Safe"]
 end
@@ -45,6 +46,9 @@ loop do
     unless mention_cache.include? [mention.text, mention.user.screen_name]
       binding.pry
       lat, long  =  mention.geo.coordinates if mention.geo
+      puts "lat/long"
+      puts lat
+      puts long
       coords = {:lat => lat, :lng => long}
       respond_to_mention mention.text, mention.user.screen_name, coords
       mention_cache << [mention.text, mention.user.screen_name]
